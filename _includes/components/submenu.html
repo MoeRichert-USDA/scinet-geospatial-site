@@ -1,0 +1,43 @@
+{% assign section_links = site.data.navigation[_section.links] | default: _section.links %}
+{% assign _section_id = _section.id %}
+{% unless _section_id %}{% assign _section_id = 'nav-' | append: forloop.index %}{% endunless %}
+<button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="{{ _section_id }}">
+    <span>{{ _section.text }}</span>
+</button>
+{% if header.type == 'basic' or header.type == 'extended' %}
+<ul id="{{ _section_id }}" class="usa-nav__submenu usa-accordion">
+{% endif %}
+{% for _link in section_links %}
+    {% if _link.sublinks %}
+        {% assign link_sublinks = site.data.navigation[_link.sublinks] | default: _link.sublinks %}
+        {% assign _link_id = _link.id %}
+        {% unless _link_id %}{% assign _link_id = 'subnav-' | append: forloop.index %}{% endunless %}
+        {% unless _link_button_id %}{% assign _link_button_id = 'subnav-b-' | append: forloop.index %}{% endunless %}
+        <button id="{{ _link_button_id }}" class="usa-accordion__button" aria-expanded="false" aria-controls="{{ _link_id }}">
+                <span>{{ _link.text }}</span>
+        </button>
+                <ul id="{{ _link_id }}" class="usa-accordion__content usa-nav__submenu-item sub_back">
+                    {% for _sublink in link_sublinks %}
+                        <li class="usa-nav__subsubmenu-item">
+                            <a href="{% if _sublink.external %}{{ _sublink.href }}{% else %}{{ _sublink.href | relative_url }}{% endif %}">{{
+                                _sublink.text }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                </ul>
+        </li>
+
+    {% else %}
+    <li class="usa-nav__submenu-item">
+        <a href="{% if _link.external %}{{ _link.href }}{% else %}{{ _link.href | relative_url }}{% endif %}">{{
+            _link.text }}</a>
+    </li>
+    {% endif %}
+    {% endfor %}
+    {% if header.type == 'basic' or header.type == 'extended' %}
+</ul>
+{% endif %}
+{% if header.type == 'basic-mega' or header.type == 'extended-mega' %}
+</div><!-- /grid-row -->
+</div>
+{% endif %}

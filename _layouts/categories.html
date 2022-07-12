@@ -1,0 +1,35 @@
+---
+layout: nav
+title: Scinet News
+main:
+  class: usa-layout-docs usa-layout-docs__main usa-prose 
+---
+
+
+  {{ content }}
+
+  {% assign myfilter = page.collect %}
+  {% case myfilter %}
+    {% when "announcements" %}
+      {% assign myposts = site.announcements %}
+      {% assign flow = 'reverse' %}
+      {% assign post_type = 'calendar' %}
+    {% when "downtime" %}
+      {% assign myposts = site.downtime %}
+    {% when "events" %}
+      {% assign myposts = site.events %}
+    {% else %}
+      {% assign myposts = site.posts %}
+  {% endcase %}
+  
+  <ul class="usa-list usa-list--unstyled">
+{% if flow == 'reverse' %}
+  {% for post in myposts reversed %} 
+      {% include collection.html %}
+  {% endfor %}
+{% else %}
+  {% for post in myposts %} 
+      {% include collection.html %}
+  {% endfor %}
+{% endif %}
+</ul>

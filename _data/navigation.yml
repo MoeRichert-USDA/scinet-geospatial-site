@@ -1,0 +1,95 @@
+# This is the configuration for the site navigation.
+
+sidenav-breakpoint: 'desktop'
+
+# This file defines the structure of various named navigational
+# listings, any of which can be used (with some caveats) as the
+# links in your header, footer, and per-page side navigation.
+#
+# For instance, if you have a "primary" navigation list here, you
+# can use that as your header's primary navigation by setting
+# `primary.links` to "primary":
+#
+# primary:
+#   links: primary
+#
+primary:
+  - text: Home
+    href: /
+  - text: Getting Started
+    links:
+      - text: Premeeting Checklist
+        href: /about/premeeting
+      - text: Sign up for a SCINet account
+        href: /about/signup
+      - text: Github Signup
+        href: https://github.com/join
+        external: true
+      - text: Contact
+        href: /about/contact
+  - text: 2022 Sessions
+    links:
+      - text: Session 1
+        href: ""
+      - text: Session 2
+        href: ""
+      - text: Session 3
+        href: ""
+      - text: Session 4
+        href: ""
+      - text: Session 5
+        href: ""
+      - text: Session 6
+        href: ""
+  - text: Session Archive
+    href: /workshop/archive
+
+
+
+footer:
+  - text: RESOURCES
+    links: 
+    - text: Feedback
+      href: mailto:scinet_vrsc@usda.gov
+      external: true
+    - text: Sign Up
+      href: /about/signup
+    - text: Contact
+      href: /about/contact
+    - text: Fellowships
+      href: /opportunities/postdocs
+  - text: USDA
+    links:
+    - text: AskUSDA
+      href: https://ask.usda.gov/
+      external: true
+    - text: USDA.gov
+      href: https://usda.gov/
+      external: true
+    - text: USA.gov
+      href: https://www.usa.gov
+      external: true
+    - text: WhiteHouse.gov
+      href: https://www.whitehouse.gov
+      external: true
+    - text: Plain Writing
+      href: https://usda.gov/plain-writing
+      external: true
+  - text: LEGAL
+    links:
+    - text: Accessibility Statement
+      href: https://usda.gov/accessibility-statement
+      external: true
+    - text: Non-Discrimination Statement
+      href: https://usda.gov/non-discrimination-statement
+      external: true
+    - text: Privacy Policy
+      href: https://usda.gov/privacy-policy
+      external: true
+    - text: FOIA
+      href: https://www.dm.usda.gov/foia/
+      external: true
+    - text: Information Quality
+      href: https://www.ocio.usda.gov/policy-directives-records-forms/information-quality-activities
+      external: true
+

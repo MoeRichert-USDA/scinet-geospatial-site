@@ -1,0 +1,22 @@
+{% assign summary = include.summary %}
+<div
+  class="usa-summary-box"
+  role="region"
+  aria-labelledby="summary-box-key-information"
+>
+  <div class="usa-summary-box__body">
+    <h3 class="usa-summary-box__heading" id="summary-box-key-information">
+      {{ summary.header }}
+    </h3>
+    <div class="usa-summary-box__text">
+        {{ summary.text }}
+        {% if summary.list %}
+        <ul>
+        {% for point in summary.list %}
+            <li>{{ point }}</li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+  </div>
+</div>

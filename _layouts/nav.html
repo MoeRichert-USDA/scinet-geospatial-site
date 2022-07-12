@@ -1,0 +1,68 @@
+---
+layout: default
+main:
+  class: usa-layout-docs usa-layout-docs__main usa-prose 
+---
+
+
+<div class="grid-container main-side">
+
+
+  {% if page.sidenav_link %}
+    {% assign pagelink = page.sidenav_link %}
+  {% else %}
+    {% assign pagelink = page.permalink %}
+  {% endif %}
+
+    {% assign header = site.data.header %}
+    {% assign _primary = header.primary.links %}
+      {% assign primary_links = site.data.navigation[_primary] | default: _primary %}
+      {% if primary_links %}
+        {% for _section in primary_links %}
+          {% unless _section.href == pagelink %} 
+            {% if _section.links %}
+                {% assign section_links = site.data.navigation[_section.links] | default: _section.links %}
+                {% for _link in section_links %}
+                    {% if _link.href == pagelink %} 
+                        {% assign bc_section = _section %}
+                        {% assign bc_sidenav = section_links %}
+                    {% else %}
+                        {% if _section.sublinks %}
+                        {% assign link_sublinks = site.data.navigation[_link.sublinks] | default: _link.sublinks %}
+                          {% for _sublink in link_sublinks %}
+                            {% if _sublink.href == pagelink %} 
+                                {% assign bc_section = _section %}
+                                {% assign bc_sectionlink = _link %}
+                                {% assign bc_sidenav = link_sublinks %}
+                            {% endif %}
+                          {% endfor %}
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+          {% endunless %}
+        {% endfor %}
+      {% endif %}
+
+{% if page.sidenav_other %}
+    {% assign sidenav = site.data.navigation[page.sidenav_other] | default: sidenav %}
+{% else %}
+    {% assign sidenav = bc_sidenav %}
+{% endif %}
+
+
+<div class="grid-row grid-gap flex-align-start">
+    <div class="usa-layout-docs__sidenav desktop:grid-col-3 desktop:padding-y-9{% if page.sidenav %}{% else %} usa-sticky-sidenav{% endif %}">
+        {% include sidenav.html links=sidenav %}
+    </div>
+    
+    <main class="{{ layout.main.class }}{% if sidenav %} desktop:grid-col-9{% endif %}" id="main-content">
+        {% if bc_sectionlink %}{% include components/breadcrumb.html %}{% else %}<nav class="usa-breadcrumb usa-breadcrumb--wrap"><div class="padding-y-2"></div></nav>{% endif %}
+        {% if page.title %}
+            <h1 class="top-header">{{ page.title }}</h1>
+        {% endif %}
+        {{ content }}
+    </main>
+</div>
+</div>
+

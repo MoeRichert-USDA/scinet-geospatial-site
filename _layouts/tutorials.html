@@ -1,0 +1,12 @@
+---
+layout: page
+---
+
+<div class="usa-width-three-fourths usa-layout-docs-main_content">
+    {% for tutorial in site.tutorials %}
+      <h3>
+        <a href="{{ tutorial.url  | relative_url}}">{{ tutorial.title }}</a>
+      </h3>
+      {{ tutorial.excerpt | truncatewords:25 }}
+    {% endfor %}
+</div>
