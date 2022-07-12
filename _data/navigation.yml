@@ -29,6 +29,8 @@ primary:
         href: /about/contact
   - text: 2022 Sessions
     links:
+      - text: Premeeting Checklist
+        href: /about/premeeting
       - text: Session 1
         href: ""
       - text: Session 2
