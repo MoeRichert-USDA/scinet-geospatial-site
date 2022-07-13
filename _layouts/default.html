@@ -1,6 +1,6 @@
 ---
 main: foo, bar, qaz
-
+scripts: /assets/js/external.js
 ---
 
 <!DOCTYPE html>
@@ -25,9 +25,11 @@ main: foo, bar, qaz
     {% endif %}
 
     {% if page.alerts %}
+    <section class="grid-container">
     {% for _alert in page.alerts %}
     {% include alert.html alert=_alert %}
     {% endfor %}
+    </section>
     {% endif %}
 
 
