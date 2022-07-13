@@ -14,18 +14,19 @@
 <div
     class="usa-alert {{ typeclass }} {% if alert.slim %} usa-alert--slim {% endif %} {% if alert.no_icon %} usa-alert--no-icon {% endif %}">
 
-    {% if alert.href %}
-    <a href="{{ alert.href }}">
+    <div class="usa-alert__body">
+
+        {% if alert.heading %}
+        <h4 class="usa-alert__heading">{{ alert.heading }}</h4>
         {% endif %}
-        <div class="usa-alert__body">
-            {% if alert.heading %}
-            <h4 class="usa-alert__heading">{{ alert.heading }}</h4>
-            {% endif %}
-            <p class="usa-alert__text">
+        <p class="usa-alert__text">
+            {% if alert.href %}
+            <a href="{{ alert.href }}">
+                {% endif %}
                 {{ alert.text }}
-            </p>
-        </div>
-        {% if alert.href %}
-    </a>
-    {% endif %}
+                {% if alert.href %}
+            </a>
+            {% endif %}
+        </p>
+    </div>
 </div>
