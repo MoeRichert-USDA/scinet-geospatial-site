@@ -1,6 +1,6 @@
 ## Site Contributions
 
-These are the instructions for how to contribute to the SCINet USDA webpage if you have been contacted to contribute.
+These are the instructions for how to contribute to the SCINet Geospatial workshop webpage if you have been contacted to contribute.
 
 There are two ways to do this.
 
