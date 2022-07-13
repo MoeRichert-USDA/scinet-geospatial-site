@@ -18,8 +18,6 @@ primary:
     href: /
   - text: Getting Started
     links:
-      - text: Premeeting Checklist
-        href: /workshop/premeeting
       - text: Sign up for a SCINet account
         href: /about/signup
       - text: Github Signup
@@ -27,36 +25,36 @@ primary:
         external: true
       - text: Contact
         href: /about/contact
+  - text: Premeeting Checklist
+    href: /workshop/premeeting
   - text: 2022 Sessions
     links:
-      - text: Premeeting Checklist
-        href: /workshop/premeeting
-      - text: Workshop Calendar
-        href: /workshop/calendar
+      - text: Workshop Itinerary
+        href: /workshop/itinerary
       - text: 0 - Tech Support
-        href: /
+        href: /events/2022-8-25-Geospatial-Workshop-0/
       - text: 1 - Introduction to SCINet
-        href: /
+        href: /events/2022-8-29-Geospatial-Workshop-1/
       - text: 2 - Geospatial Data
-        href: /
+        href: /events/2022-8-29-Geospatial-Workshop-2/
       - text: 3 - Parallel Processing
-        href: /
+        href: /events/2022-8-30-Geospatial-Workshop-3/
       - text: 4 - Interactive Environments
-        href: /
+        href: /events/2022-8-30-Geospatial-Workshop-4/
       - text: 5 - Geospatial Common Data Library
-        href: /
+        href: /events/2022-8-30-Geospatial-Workshop-5/
       - text: 6 - Geospatial analyses - R
-        href: /
+        href: /events/2022-8-31-Geospatial-Workshop-6/
       - text: 7 - Interactive BYOP
-        href: /
+        href: /events/2022-8-31-Geospatial-Workshop-7/
       - text: 8 - Geospatial analyses - Python
-        href: /
+        href: /events/2022-9-1-Geospatial-Workshop-8/
       - text: 9 - Interactive BYOP
-        href: /
+        href: /events/2022-9-1-Geospatial-Workshop-9/
       - text: 10 - Interactive BYOP
-        href: /
+        href: /events/2022-9-2-Geospatial-Workshop-10/
       - text: 11 - Closing Discussion
-        href: /
+        href: /events/2022-9-2-Geospatial-Workshop-11/
   - text: Session Archive
     href: /workshop/archive
   - text: Contributors
