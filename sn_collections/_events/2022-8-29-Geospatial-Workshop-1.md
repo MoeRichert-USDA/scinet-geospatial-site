@@ -60,16 +60,14 @@ KEEP YOURSELF ON MUTE - Please mute yourself unless you are called on.
 See our working group page on the SCINet website.
 
 Our main goals are to:
-
-    provide continued input on the development of SCINet,
-    improve the computational capacity of ARS geospatial researchers, and
-    develop collaborative research projects.
+* provide continued input on the development of SCINet,
+* improve the computational capacity of ARS geospatial researchers, and
+* develop collaborative research projects.
 
 The goals of the 2020 workshop are to:
-
-    provide hands-on learning using the Ceres high-performance computing (HPC) system to conduct geospatial and machine learning research,
-    foster research efforts that had previously been un-attainable due to technical limitations or inexperience, and
-    inspire new research ideas and collaborations.
+* provide hands-on learning using the Ceres high-performance computing (HPC) system to conduct geospatial and machine learning research,
+* foster research efforts that had previously been un-attainable due to technical limitations or inexperience, and
+* inspire new research ideas and collaborations.
 
 
 
@@ -84,30 +82,29 @@ The goals of the 2020 workshop are to:
 
 
 At last year’s workshop we:
-
-    heard from ARS scientists about successes and challenges of using SCINet for geospatial analysis,
-    identified common issues and barriers to using SCINet for geospatial research workflows,
-    generated recommendations for overcoming these issues/barriers,
-    created the SCINet Geospatial Research Working Group to follow through with workshop recommendations, and
-    learned about machine learning, deep learning, and some of the ways ML/DL are being used for research at New Mexico State University and the Jornada Experimental Range.
+* heard from ARS scientists about successes and challenges of using SCINet for geospatial analysis,
+* identified common issues and barriers to using SCINet for geospatial research workflows,
+* generated recommendations for overcoming these issues/barriers,
+* created the SCINet Geospatial Research Working Group to follow through with workshop recommendations, and
+* learned about machine learning, deep learning, and some of the ways ML/DL are being used for research at New Mexico State University and the Jornada Experimental Range.
 
 
 Computational Needs of the ARS Geospatial Research Community:
 
-    data access, sharing, and storage
-        securely store data
-        rapid access to data
-        share large data files that aren’t publicly available
-        make research data publicly assessible (distribution and archiving)
-        access to AgCROS and PDI data servers from SCINet
+* data access, sharing, and storage
+    * securely store data
+    * rapid access to data
+    * share large data files that aren’t publicly available
+    * make research data publicly assessible (distribution and archiving)
+    * access to AgCROS and PDI data servers from SCINet
     reproducibility and collaboration
-        improve data provenance and versioning
-        collaborate on models and code development in real time
+    * improve data provenance and versioning
+    * collaborate on models and code development in real time
     computation and data manipulation
-        explore/visualize large data
-        build capacity for using SCINet/HPC and knowing when to use
-        cloud computing and storage for operational projects with large input and output data
-        decision support/agro-informatics applications for our stakeholders
+    * explore/visualize large data
+    * build capacity for using SCINet/HPC and knowing when to use
+    * cloud computing and storage for operational projects with large input and output data
+    * decision support/agro-informatics applications for our stakeholders
 
 
 Recommendations for improving access to SCINet HPC/cloud computing and enhancing general computational skill in the ARS geospatial research community:
@@ -116,31 +113,31 @@ Key: progress made in FY20, progress beginning FY21
 
 A) Improve data access, sharing, and storage.
 
-    Implement better methods for getting massive input data into the computational environment.
-    Build/expand higher speed connections to SCINet.
-    Build a common data library on SCINet to reduce duplication of popular datasets and reduce the barrier to adopting HPC workflows.
-    Hold trainings in data management for long-term datasets and archiving of data from retired scientists.
+* Implement better methods for getting massive input data into the computational environment.
+* Build/expand higher speed connections to SCINet.
+* Build a common data library on SCINet to reduce duplication of popular datasets and reduce the barrier to adopting HPC workflows.
+* Hold trainings in data management for long-term datasets and archiving of data from retired scientists.
 
 B) Enhance reproducibility of our science and increase collaboration.
 
-    Hold trainings on using Git, containers, and other reproducibility tools.
-    Hold hands-on group work sessions in R and Python.
+* Hold trainings on using Git, containers, and other reproducibility tools.
+* Hold hands-on group work sessions in R and Python.
 
 C) Build capacity for using HPC/cloud computing.
 
-    Hold trainings on how to access and compute on the SCINet HPC systems (including how to parallelize code) to reduce the learning curve.
-    Develop a collection of tutorials from ag/geo-relevant applications with example scripts that run on the SCINet HPCs, including ML/DL techniques. (Geospatial Workbook)
-    Hire personnel, including postdocs, with multi-disciplinary computational backgrounds.
-    Hold trainings in R, Python, and Unix through The Carpentries or similar.
-    Repeat the 2019 AI Training by Adam Rivers and University of Florida collaborators.
-    Hold trainings in image processing.
+* Hold trainings on how to access and compute on the SCINet HPC systems (including how to parallelize code) to reduce the learning curve.
+* Develop a collection of tutorials from ag/geo-relevant applications with example scripts that run on the SCINet HPCs, including ML/DL techniques. (Geospatial Workbook)
+* Hire personnel, including postdocs, with multi-disciplinary computational backgrounds.
+* Hold trainings in R, Python, and Unix through The Carpentries or similar.
+* Repeat the 2019 AI Training by Adam Rivers and University of Florida collaborators.
+* Hold trainings in image processing.
 
 D) Expand SCINet HPC system software, hardware, and support to focus on our research community needs.
 
-    Contract a “GeoTeam” that would help our research community with workflow development, parallelization, and code optimization.
-    Deploy a better forum for searchable SCINet questions/answers.
-    Purchase community GPUs when the priority GPU gets to be a limited resource.
-    Install Pix4D Engine software on SCINet.
+* Contract a “GeoTeam” that would help our research community with workflow development, parallelization, and code optimization.
+* Deploy a better forum for searchable SCINet questions/answers.
+* Purchase community GPUs when the priority GPU gets to be a limited resource.
+* Install Pix4D Engine software on SCINet.
 
 return to agenda
 
@@ -153,15 +150,15 @@ The following links will take to you to our workshop homepage where you can regi
 
 If you are unable to join a session, you will still be able to access and work through all the tutorials on your own using the session tabs at the top of our workshop homepage. We will also eventually make the Zoom recordings available as well.
 
-    8/27/2020, 11am-1pm MDT, Session 2: Tutorial: Intro to the Ceres HPC System Environment
+* 8/27/2020, 11am-1pm MDT, Session 2: Tutorial: Intro to the Ceres HPC System Environment
 
-    8/27/2020, 1:30-2:30pm MDT, Session 3: Tutorial: Intro to Distributed Computing on the Ceres HPC System Using Python and Dask
+* 8/27/2020, 1:30-2:30pm MDT, Session 3: Tutorial: Intro to Distributed Computing on the Ceres HPC System Using Python and Dask
 
-    8/28/2020, 10:30am-12:30pm MDT, Session 4: Tutorial: Computational Reproducibility Tools
+* 8/28/2020, 10:30am-12:30pm MDT, Session 4: Tutorial: Computational Reproducibility Tools
 
-    8/28/2020, 1:00-2:30pm MDT, Session 5: Tutorial: Distributed Machine Learning: Using Gradient Boosting to Predict NDVI Dynamics
+* 8/28/2020, 1:00-2:30pm MDT, Session 5: Tutorial: Distributed Machine Learning: Using Gradient Boosting to Predict NDVI Dynamics
 
-    9/1/2020, 11am-2pm MDT, Session 6: Symposium: Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture
+* 9/1/2020, 11am-2pm MDT, Session 6: Symposium: Challenges and opportunities in leveraging machine learning techniques to further sustainable and intensified agriculture
 
 ### Preparation for the tutorial sessions (2, 3, 4, 5)
 
@@ -179,25 +176,25 @@ We’re planning to hold a working group Zoom session quarterly at minimum (mont
 
 The sessions could include:
 
-    research presentations from inside or outside ARS,
-    short tutorials or demonstrations of software or computational techniques,
-    productivity presentations such as
-        how to design collaborative research,
-        how to make better scientific figures/presentations,
-        reproducible workflow techniques and HPC etiquette, etc.
-    working sessions for
-        common data library
-        geospatial workbook
-        bring your own coding question/data problem
-    development of new cross-location research ideas
+* research presentations from inside or outside ARS,
+* short tutorials or demonstrations of software or computational techniques,
+* productivity presentations such as
+    * how to design collaborative research,
+    * how to make better scientific figures/presentations,
+    * reproducible workflow techniques and HPC etiquette, etc.
+* working sessions for
+    * common data library
+    * geospatial workbook
+    * bring your own coding question/data problem
+* development of new cross-location research ideas
 
 Discussion Question: What content would you like to see in quarterly working group meetings?
 
 Discussion Notes:
 
-    ENVI/IDL training/tutorials for satellite data processing
-    Sessions for informal coding questions in various languages
-    Session on data persistence on Ceres. For example, if a model outputs a large amount of results how long can this data stay on CERES? Does it stay for the lifecycle of the study which could be multiple years? Or how do we design the studies to account for the data storage?
+* ENVI/IDL training/tutorials for satellite data processing
+* Sessions for informal coding questions in various languages
+* Session on data persistence on Ceres. For example, if a model outputs a large amount of results how long can this data stay on CERES? Does it stay for the lifecycle of the study which could be multiple years? Or how do we design the studies to account for the data storage?
 
 return to agenda
 
@@ -219,13 +216,13 @@ During the 2019 SCINet Geospatial Workshop, the working group identified the nee
 
 Tentative Agenda
 
-    Brief introduction (5 mins)
-    Preliminary results of the SCINet Geospatial Data and Computational Needs Survey (10 mins)
-    Discuss (45 mins)
-        What kind of datasets and which ones will be stored on the clusters?
-        How to store, manage, and serve data to the users?
-        How to allow easy access to data that does not make it to the library/repository?
-        Other topics brought by the audience …
+* Brief introduction (5 mins)
+* Preliminary results of the SCINet Geospatial Data and Computational Needs Survey (10 mins)
+* Discuss (45 mins)
+    * What kind of datasets and which ones will be stored on the clusters?
+    * How to store, manage, and serve data to the users?
+    * How to allow easy access to data that does not make it to the library/repository?
+    * Other topics brought by the audience …
 
 Discussion Notes:
 
@@ -265,24 +262,24 @@ One product generated by our working group will be the geospatial workbook, whic
 
 Discussion Questions:
 
-    What content do we want in the Geospatial Workbook?
-    What content formats are the most useful?
-    Are there best practices that exist in our research community that we should cover?
-    What’s the process for contributing content to the workbook?
+* What content do we want in the Geospatial Workbook?
+* What content formats are the most useful?
+* Are there best practices that exist in our research community that we should cover?
+* What’s the process for contributing content to the workbook?
 
 Discussion Notes:
 
 Content Ideas
 
-    Share common applications and work flows for downloading/subsetting data
-    Recipe/example application of ENVI/IDL in the GS Workbook
-    Spectral unmixing analysis
-    The same analysis but written in multiple languages could be really helpful
-    Provide a good example of a publication supplement in a Jupyter Notebook format
-    A couple tutorials that give examples of individual scripts, then a different tutorial showing how they could be run in sequence using Nextflow
-    embarassingly parallel example using Python- specifically a workflow that runs a Python script many times with different input data for each job
-    How to get a DOI for your container/analysis scripts
-    Document how to access wsl2 – Windows Subsystem Linux
+* Share common applications and work flows for downloading/subsetting data
+* Recipe/example application of ENVI/IDL in the GS Workbook
+* Spectral unmixing analysis
+* The same analysis but written in multiple languages could be really helpful
+* Provide a good example of a publication supplement in a Jupyter Notebook format
+* A couple tutorials that give examples of individual scripts, then a different tutorial showing how they could be run in sequence using Nextflow
+* embarassingly parallel example using Python- specifically a workflow that runs a Python script many times with different input data for each job
+* How to get a DOI for your container/analysis scripts
+* Document how to access wsl2 – Windows Subsystem Linux
 
 C: We could poll our community to find out what are some low hanging fruit as far as repeated analyses, like querying a zone or a set of points in a data cube.
 
