@@ -38,9 +38,10 @@ intro:
     href: /guide/quickstart
 
 calendar:
-  title: "Workshop Sessions"
-  text: "Please make sure to register separately for each session you plan on attending. </br> 
+  title: "Workshop Itinerary"
+  text: "<b>Please make sure to register separately for each session you plan on attending.</b> </br> 
   The Zoom join details are different for each session."
+  text-href: /registration
   button: "See the Full Calendar"
   href: /events/upcoming
   alt-title: "Workshop Details"

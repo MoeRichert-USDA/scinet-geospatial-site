@@ -23,14 +23,6 @@
     @include u-text('center');
     @include u-bg('primary-lighter');
  
-    @include at-media("desktop") {
-       @include u-maxw('mobile-lg');
-    }
- 
-    @include at-media("tablet") {
-       @include grid-row;
-    }
- 
     h1 {
        @include typeset('ui', 'xl');
     }
@@ -46,14 +38,49 @@
  
     .sci-flex {
        @include u-margin-x(2);
+   }
  
-       @include at-media("tablet") {
-          @include u-margin-y('auto');
-          @include grid-col;
-       }
- 
-    }
+  
  }
+
+ .flex-sci-card{
+   .sci-card{
+      @include at-media("desktop") {
+         @include u-maxw('mobile-lg');
+      }
+      @include at-media("tablet") {
+         @include grid-row;
+      }
+      .sci-flex {
+         @include at-media("tablet") {
+            @include u-margin-y('auto');
+            @include grid-col;
+         }
+   
+      }
+   }
+ }
+
+ .alt-sci-card {
+   .sci-card{
+      @include at-media($theme-header-min-width) {
+         @include grid-row;
+      }
+      .sci-flex {
+         @include at-media("desktop") {
+            @include u-margin-y('auto');
+            @include grid-col;
+         }
+         .sci-select{
+            @include at-media("tablet") {
+               @include u-margin-x('auto');
+            }
+         }
+      }
+   }
+ }
+
+ 
 
  .sn-text-intro{
    @include at-media("tablet") {

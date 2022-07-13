@@ -1,6 +1,6 @@
 ---
 
-title: "Geospatial Workshop - Orientation - DemoData"
+title: "Session 0: Pre-meeting tech support for account logins and data uploads"
 author: Moe Richert
 excerpt: Please complete this pre-meeting checklist ahead of time if you plan to participate in any of the interactive follow-along tutorials (Sessions 2-5). Pre-meeting SCINet Account Login Assistance.
 categories: [Geospatial Workshop]  
@@ -11,7 +11,10 @@ tags: Geospatial
 sessions:
   - session: 
     time: 11:00am-1:00pm MDT
-    instructor: placeholder
+ #   instructor: placeholder
+    register: No registration required
+ #   register_url: https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/
+
 
 alerts: 
   - alert: 
