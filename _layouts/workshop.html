@@ -8,58 +8,46 @@ class:
 <div class="grid-row sci-container" aria-label="{{ page.ended.header }}">
     <div class="grid-container">
         <div class="padding-2">
-        {% include components/summary.html summary = page.ended %}
-    </div>
+            {% include components/summary.html summary = page.ended %}
+        </div>
     </div>
 </div>
 {% endif %}
-<div class="grid-row sci-container" aria-label="Getting Started and Event Calendar">
-    <div class="desktop:grid-col-auto" aria-label="Getting Started">
-        {% include sci-card.html highlight = page.intro %}
-    </div>
-    <div class="desktop:grid-col-fill" aria-label="Calendar">
+<div class="grid-row sci-container alt-sci-card" aria-label="Getting Started">
+    {% include sci-card.html highlight = page.intro %}
+</div>
+<div class="grid-row sci-container" aria-label="Workshop Itinerary">
+
+    <div class="grid-container">
         <div class="grid-row grid-gap">
 
-            {% assign featured_cal = site.events | where: 'future', 'show' %}
-            {% assign filtered_posts = featured_cal | where_exp: "post", "post.date >= site.time" %}
-            {% assign pnum = filtered_posts | size %}
-            {% if pnum == 0 %}
-            <div class="width-full margin-6 text-center">
-                <h3 class="site-preview-heading">{{ page.calendar.alt-title }}</h3>
-                <div>{{ page.calendar.alt-text }}</div>
-                <ul class="usa-card-group margin-y-4 maxw-tablet margin-x-auto flex-align-center">
-                    {% assign alt_buttons = page.calendar.alt-buttons %}
-                    {% for _button in alt_buttons %}
-                    <li class="usa-card tablet:grid-col-6 featured_posts">
-                        <a
-                            href="{% if _button.external %}{{ _button.href }}{% else %}{{ _button.href | relative_url }}{% endif %}">
-                            <div class="usa-card__container">
-                                <h5>{{ _button.text }}</h5>
-                            </div>
-                        </a>
-                    </li>
-                    {% endfor %}
-                </ul>
-            </div>
-            {% else %}
+        {% assign featured_cal = site.events | where: 'future', 'show' %}
+        {% assign filtered_posts = featured_cal | where_exp: "post", "post.categories contains page.title" %}
 
-            <div class="width-full margin-4">
-                <h3 class="site-preview-heading">{{ page.calendar.title }}</h3>
-                {% if page.calendar.text %}
-                    <span>{{ page.calendar.text }}</span>
-                {% endif %}
-                <ul class="usa-list usa-list--unstyled">
-                {% for post in filtered_posts limit:3 %}
+
+        <div class="width-full margin-4">
+            <h1 class="site-preview-heading">{{ page.calendar.title }}</h1>
+            {% if page.calendar.text %}
+            <div class="featured_posts">
+                <a
+                    href="{% if page.calendar.text-href %}{{ page.calendar.text-href }}{% else %}{{ page.calendar.text-href | relative_url }}{% endif %}">
+                    <div class="usa-card__container padding-2">
+                        {{ page.calendar.text }}
+                    </div>
+                </a>
+            </div>
+            {% endif %}
+            <ul class="usa-list usa-list--unstyled">
+                {% for post in filtered_posts %}
                 {% assign post_type = 'calendar' %}
-                {% include components/collection.html %}
+                {% include components/collection-test.html %}
                 {% endfor %}
             </ul>
-            </div>
-            <a class="usa-button margin-x-auto margin-y-2"" href=" {{ page.calendar.href | relative_url }}">
-                {{ page.calendar.button }}
-            </a>
-            {% endif %}
         </div>
+        <a class="usa-button margin-x-auto margin-y-2" href=" {{ page.calendar.href | relative_url }}">
+            {{ page.calendar.button }}
+        </a>
+    </div>
     </div>
 </div>
 {% if page.featured %}
@@ -117,9 +105,9 @@ class:
 </div>
 
 <div class="grid-row sci-container" aria-label="{{ page.title }}">
-  <div class="grid-container">
-    <div class="usa-layout-docs usa-layout-docs__main usa-prose ">
-        {{ content }}
+    <div class="grid-container">
+        <div class="usa-layout-docs usa-layout-docs__main usa-prose ">
+            {{ content }}
+        </div>
     </div>
-  </div>
 </div>

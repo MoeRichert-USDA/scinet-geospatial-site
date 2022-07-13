@@ -1,6 +1,6 @@
 ---
 
-title: "Annual Meeting of the SCINet Geospatial Research Working Group"
+title: "Session 1: Introduction to SCINet with lightning presentations"
 author: Moe Richert
 excerpt: This page contains all the info you need to participate in Session 1 of the SCINet Geospatial Workshop 2020.
 categories: [Geospatial Workshop]  
@@ -8,10 +8,13 @@ provider: Geospatial Working Group
 type: workshop
 tags: Geospatial
 
+
 sessions:
   - session: 
     time: 11:00am-1:00pm MDT
-    instructor: placeholder
+ #   instructor: placeholder
+    register: No registration required
+ #   register_url: https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/
 
 alerts: 
   - alert: 
