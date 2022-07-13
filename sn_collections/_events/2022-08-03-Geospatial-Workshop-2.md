@@ -16,12 +16,12 @@ sessions:
 alerts: 
   - alert: 
     type: info
-    type2: slim
+    slim: true
     text: Zoom session recording (USDA eAuthentication required)
     href: https://web.microsoftstream.com/video/e469908f-bc92-4199-a875-21f513c113b2
   - alert:
     type: info
-    type2: slim
+    slim: true
     text: Zoom session chat
     href: https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/docs/2020-08-25_SCINet-Geospatial-WG_Workshop-Session1-Annual-Meeting_CHAT.txt
 

@@ -19,7 +19,7 @@ primary:
   - text: Getting Started
     links:
       - text: Premeeting Checklist
-        href: /about/premeeting
+        href: /workshop/premeeting
       - text: Sign up for a SCINet account
         href: /about/signup
       - text: Github Signup
@@ -30,21 +30,37 @@ primary:
   - text: 2022 Sessions
     links:
       - text: Premeeting Checklist
-        href: /about/premeeting
-      - text: Session 1
-        href: ""
-      - text: Session 2
-        href: ""
-      - text: Session 3
-        href: ""
-      - text: Session 4
-        href: ""
-      - text: Session 5
-        href: ""
-      - text: Session 6
-        href: ""
+        href: /workshop/premeeting
+      - text: Workshop Calendar
+        href: /workshop/calendar
+      - text: 0 - Tech Support
+        href: /
+      - text: 1 - Introduction to SCINet
+        href: /
+      - text: 2 - Geospatial Data
+        href: /
+      - text: 3 - Parallel Processing
+        href: /
+      - text: 4 - Interactive Environments
+        href: /
+      - text: 5 - Geospatial Common Data Library
+        href: /
+      - text: 6 - Geospatial analyses - R
+        href: /
+      - text: 7 - Interactive BYOP
+        href: /
+      - text: 8 - Geospatial analyses - Python
+        href: /
+      - text: 9 - Interactive BYOP
+        href: /
+      - text: 10 - Interactive BYOP
+        href: /
+      - text: 11 - Closing Discussion
+        href: /
   - text: Session Archive
     href: /workshop/archive
+  - text: Contributors
+    href: /workshop/contributers
 
 
 
