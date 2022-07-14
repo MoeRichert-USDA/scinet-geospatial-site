@@ -10,8 +10,10 @@ main:
 
   {% if page.sidenav_link %}
     {% assign pagelink = page.sidenav_link %}
-  {% else %}
+  {% elsif page.permalink %}
     {% assign pagelink = page.permalink %}
+  {% else %}
+    {% assign pagelink = page.url %}
   {% endif %}
 
     {% assign header = site.data.header %}
