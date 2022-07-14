@@ -19,7 +19,9 @@ main:
       {% assign primary_links = site.data.navigation[_primary] | default: _primary %}
       {% if primary_links %}
         {% for _section in primary_links %}
-          {% unless _section.href == pagelink %} 
+          {% if _section.href == pagelink %} 
+            {% assign bc_sidenav = _section %}
+          {% else %}
             {% if _section.links %}
                 {% assign section_links = site.data.navigation[_section.links] | default: _section.links %}
                 {% for _link in section_links %}
@@ -40,7 +42,7 @@ main:
                     {% endif %}
                 {% endfor %}
             {% endif %}
-          {% endunless %}
+          {% endif %}
         {% endfor %}
       {% endif %}
 
