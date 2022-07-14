@@ -1,0 +1,1 @@
+Sitemap: https://moerichert-usda.github.io/scinet-geospatial-site/sitemap.xml
