@@ -7,6 +7,7 @@ categories: [Geospatial Workshop]
 provider: Geospatial Working Group
 type: workshop
 tags: Geospatial R-project
+layout: nav
 
 sessions:
   - session: 
