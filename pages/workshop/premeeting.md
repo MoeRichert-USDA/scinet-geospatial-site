@@ -4,7 +4,7 @@ title: "Geospatial Workshop - Pre-meeting Checklist"
 author: Moe Richert
 description: Please complete this pre-meeting checklist ahead of any workshop sessions you plan to attend.
 permalink: /workshop/premeeting
-layout: page
+layout: nav
 
 subnav:
   - text: Tutorials
