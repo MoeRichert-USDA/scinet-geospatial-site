@@ -27,8 +27,6 @@ subnav:
     href: '#learning-objectives'
   - text: Agenda
     href: '#agenda'
-  - text: What is Open OnDemand?
-    href: '#what-is-open-ondemand'
 
 
 ---
@@ -52,24 +50,28 @@ KEEP YOURSELF ON MUTE - Please mute yourself when not speaking,
 <br>
 {:.border-bottom}
 
-* Launch an interactive environment on Ceres or Atlas from your web browser
+Many of us typically develop our geospatial processing workflows in Integrated Development Environments (IDEs), e.g. RStudio, or other Graphical User Interfaces (GUIs). In the past, using HPC resources required connecting to the cluster, transferring files, and submitting jobs to be all done in Unix commands. Although that is still an option, there are now many options for web access to HPC resources using applications to which users are 
+accustomed. This session will cover a few geospatial-relevent applications available via Open OnDemand portals on Ceres and Atlas.
+
+* Launch an interactive session of RStudio and JupyterHub on Ceres or Atlas from your web browser
 * Identify scenarios when interactive environments are or are not advantageous
 
 ## Agenda
 <br>
 {:.border-bottom}
 
-This is the first interactive tutorial session. We will be accessing the interactive environments available via [Open OnDemand on Ceres](https://ceres-ood.scinet.usda.gov/) and [Atlas](https://atlas-ood.hpc.msstate.edu/) . There will be a few introductory slides, a period of screen-sharing to navigate the interface in a browser window, and then example scripts to execute within the environments.  We will cover the following content:
+This is the first interactive tutorial session. We will be accessing the interactive environments available via [Open OnDemand on Ceres](https://ceres-ood.scinet.usda.gov/) and [Atlas](https://atlas-ood.hpc.msstate.edu/). There will be a few introductory slides, a period of screen-sharing to navigate the portal in a browser window, and then example scripts to execute within the environments.  We will cover the following content:
 
 * When to use interactive environments (advantages and limitations) 
 * Overview of Open OnDemand layout and Ceres/Atlas specifics
 * Launch parameters 
-* RStudio – basic tutorial
-* Jupyter – basic tutorial
-* Desktops w/ QGIS example – more in depth tutorial
+* RStudio 
+* Jupyter
+* Desktops 
 
-## What is Open OnDemand?
-<br>
-{:.border-bottom}
+Coming soon: links to the example scripts 
+
+A recording of this presentation and discussion summary notes will be made available here after the workshop is complete.
+
 
 <br>
