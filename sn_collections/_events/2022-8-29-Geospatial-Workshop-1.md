@@ -33,8 +33,8 @@ subnav:
     href: '#what-is-the-scinet-geospatial-research-working-group?'
   - text: Review of previous workshops
     href: '#review-of-previous-workshops'
-  - text: Software + Hardware + Nomenclature Overview
-    href: '#software-+-hardware-+-nomenclature-overview'
+  - text: Lightning talks
+    href: '#lightning-talks'
 
 
 ---
@@ -59,7 +59,6 @@ KEEP YOURSELF ON MUTE - Please mute yourself when not speaking,
 * Introduce SCINet office, organizing committee, and helpers 
 * Describe past workshops, current goals, and overview of sessions
 * Lightning presentations on geospatial workflows
-* Overview of upcoming sessions
 
 ## What is the SCINet Geospatial Research Working Group?
 
@@ -74,7 +73,7 @@ Our main goals are to:
 * develop collaborative research projects.
 
 The goals of the 2022 workshop are to:
-* provide hands-on learning on how to modify geospatial research workflows to take advantage of HPC systems,
+* provide hands-on learning on how to modify geospatial research workflows to take advantage of SCINet HPC systems,
 * foster research efforts that had previously been un-attainable due to technical limitations or inexperience, and
 * inspire new working group objectives.
 
@@ -128,37 +127,9 @@ D) Expand SCINet HPC system software, hardware, and support to focus on our rese
 
 At the 2020 workshop, we: 
 
-## Details on the Upcoming 2022 Sessions
 
-<br>
-{:.border-bottom}
+# Lightning talks
 
-The following links will take you to the session pages that have summaries and instructions for each session. If you are unable to join a session, you will still be able to access and work through all the tutorials on your own using the session pages. We will also make the Zoom recordings available after the meeting as well.
-
-* 8/29/2022, 11am-12pm MDT, Session 2: Fundamentals of geospatial data
-
-* 8/29/2022, 2-3pm MDT, Session 3: Fundamentals of parallel processing
-
-* 8/30/2022, 10-12pm MDT, Session 4: SCINet interactive environments
-
-* 8/30/20202, 12:30-1:30pm MDT, Session 5: SCINet Geospatial Common Data Library
-
-* 8/31/2022, 11am-1:30pm MDT, Session 6: Geospatial analyses and how to parallelize them in R
-
-* 8/31/2022, 2-3pm MDT, Session 7: Interactive bring your own problem, plus case study example
-
-* 9/1/2022, 10am-12:30pm MDT, Session 8: Geospatial analyses and how to parallelize them in python
-
-* 9/1/2022, 2-3pm MDT, Session 9: Interactive bring your own problem
-
-* 9/2/2022, 10am-12pm MDT, Session 10: Interactive bring your own problem, plus TBD special topic
-
-* 9/2/2022, 12:30-1:30pm MDT, Session 11: Closing discussion and future planning
-
-### Preparation for the tutorial sessions (4-10)
-
-The most important item is to make sure you can successfully login to your SCINet account before (preferably days before) the tutorials start. There are many tutorial registrants with expired passwords that may need assistance from the SCINet Virtual Research Support Core (VRSC) if old passwords have been forgotten. If it’s your first time logging in, use the Quick Start Guide and if you are still having trouble and contact the VRSC for help scinet_vrsc@usda.gov.
-
-Try to set yourself up on a large monitor or Google how to connect your laptop to your tv. Ideally, you will want enough screen space to have a side by side set up where one side is the live Zoom session and the other side you can have a browser window so you can work through the tutorials in real time. This set up is nearly impossible on a laptop screen alone.
+A list of the lightning talk presenters and topics coming soon. Recordings will be made available here after the workshop is complete. 
 
 <br>
