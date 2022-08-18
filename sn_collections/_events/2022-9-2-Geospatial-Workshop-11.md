@@ -15,18 +15,17 @@ sessions:
  #   instructor: placeholder
  #   register: No registration required
  #   register_url: https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/
-    prerequisites:
-      - text: Have a SCINet account and be able to login 
-        href: https://scinet.usda.gov/about/signup
-        external: true
+ #   prerequisites:
 
 subnav:
-  - text: Tutorials
-    href: '#tutorials'
-  - text: Access to the SCINet Ceres HPC System
-    href: '#access-to-the-scinet-ceres-hpc-system'
-  - text: Software + Hardware + Nomenclature Overview
-    href: '#software-+-hardware-+-nomenclature-overview'
+  - text: Agenda
+    href: '#agenda'
+  - text: Feedback survey
+    href: '#feedback-survey'
+  - text: Further trainings
+    href: '#further-trainings'
+  - text: Future needs
+    href: '#future-needs'
 
 
 ---
@@ -51,8 +50,17 @@ KEEP YOURSELF ON MUTE - Please mute yourself when not speaking,
 * Review of objectives and content covered 
 * Survey: feedback on this workshop  
 * Further related training opportunities 
-  * Coursera licenses 
 * Discussion of future needs for the working group 
+
+## Feedback survey
+
+The survey for providing feedback about this workshop will be available here during the session and for a limited time afterwards. 
+
+## Further trainings
+
+Coming soon: links to suggested trainings. For general information about SCINet trainings, [see these opportunities](https://scinet.usda.gov/training/learningpath).
+
+## Future needs
 
 Summary notes of discussion will be provided here after the workshop. 
 
