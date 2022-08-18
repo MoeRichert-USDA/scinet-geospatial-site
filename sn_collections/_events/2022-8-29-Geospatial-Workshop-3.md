@@ -32,8 +32,6 @@ subnav:
 <br>
 {:.border-bottom}
 
-GREEN LIGHT, RED LIGHT - Use the Zoom participant feedback indicators to show us if you are following along successfully as well as when you need help. To access participant feed back, click on the “Participants” icon to open the participants pane/window. Click the green “yes” to indicate that you are following along successfully, click the red “no” to indicate when you need help. Ideally, you will have either the red or green indicator displayed for yourself throughout the entire tutorial. We will pause every so often to work through solutions for participants displaying a red light.
-
 CHAT QUESTIONS/COMMENTS TAKE FIRST PRIORITY - Chat your question/comments either to everyone (preferred) or to the chat moderator (Ryan Lucas) privately to have your question/comment read out loud anonamously. We will answer chat questions first and call on people who have written in the chat before we take questions from raised hands.
 
 SHARE YOUR VIDEO WHEN SPEAKING - If your internet plan/connectivity allows, please share your video when speaking.
@@ -44,7 +42,12 @@ KEEP YOURSELF ON MUTE - Please mute yourself when not speaking,
 <br>
 {:.border-bottom}
 
-* 
+The overall objective of this session is to provide a foundation in parallel processing terminology and HPC-usage basics before applying these concepts in the upcoming tutorials. Please see the links listed in Session 11 for additional parallel processing training opportunities.
+
+* Define an 'embarassingly parallel' problem
+* Apply a parallelization approach flowchart to a geospatial problem
+* Describe the basic SLURM job submission parameters
+* Identify the appropriate Ceres or Atlas partition for a job
 
 ## Agenda
 <br>
@@ -57,9 +60,7 @@ This session will be a lecture with slides covering the following content:
   * Determine where in your workflow the most time is spent 
   * Flow chart: parallelization approaches 
   * Choosing number of cores  
-* SLURM jobs, nodes, and queues
-
-
+* SLURM jobs, nodes, and partitions
 
 A recording of this presentation and discussion summary notes will be made available here after the workshop is complete. 
 
