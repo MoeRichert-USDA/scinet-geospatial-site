@@ -11,7 +11,7 @@ layout: nav
 
 sessions:
   - session: 
-    time: 11:00am-1:00pm MDT
+    time: 10:00am-12:00pm MDT
  #   instructor: placeholder
  #   register: No registration required
  #   register_url: https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/

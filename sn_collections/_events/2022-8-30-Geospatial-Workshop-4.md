@@ -11,7 +11,7 @@ layout: nav
 
 sessions:
   - session: 
-    time: 11:00am-1:00pm MDT
+    time: 10:00am-12:00pm MDT
  #   instructor: placeholder
  #   register: No registration required
  #   register_url: https://kerriegeil.github.io/SCINET-GEOSPATIAL-RESEARCH-WG/
@@ -57,7 +57,7 @@ KEEP YOURSELF ON MUTE - Please mute yourself when not speaking,
 <br>
 {:.border-bottom}
 
-This is the first interactive tutorial session. We will be accessing the interactive environments available via [Open OnDemand on Ceres](https://ceres-ood.scinet.usda.gov/). There will be a few introductory slides, a period of screen-sharing to navigate the interface in a browser window, and then example scripts to execute within the environments.  We will cover the following content:
+This is the first interactive tutorial session. We will be accessing the interactive environments available via [Open OnDemand on Ceres](https://ceres-ood.scinet.usda.gov/) and [Atlas](https://atlas-ood.hpc.msstate.edu/) . There will be a few introductory slides, a period of screen-sharing to navigate the interface in a browser window, and then example scripts to execute within the environments.  We will cover the following content:
 
 * When to use interactive environments (advantages and limitations) 
 * Overview of Open OnDemand layout and Ceres/Atlas specifics
