@@ -1,6 +1,6 @@
 ---
 
-title: "Session 7: Interactive BYOP session + demo"
+title: "Session 7: Interactive BYOP session + Open Drone Map demo"
 author: Moe Richert
 excerpt: Attendees are encouraged to Bring Your Own Problem (BYOP) for discussion and troubleshooting. A demonstation of using Open Drone Map on Atlas will be presented.   
 categories: [Geospatial Workshop]  
