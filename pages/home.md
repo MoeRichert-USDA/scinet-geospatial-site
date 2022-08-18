@@ -30,7 +30,7 @@ intro:
     title: "How to Participate"
     text: "<b>All members of the working group are welcome to participate!</b> We also welcome anyone interested in learning about the working group, SCINet, or geospatial research to attend the introductory sessions.  
     </br></br>
-    Please attend the general session of the working group (Session 1) and then pick and choose other sessions to attend based on your own interests and skill level."
+    Please register by 8/22/2022 using the links at the bottom of this page to ensure you will receive event updates and be added to the workshop project space on SCINet."
   card: 
     title: "Get Started with SCINet"
     text: "For this workshop, you will need to have a SCINet account and be able to successfully log in. We recommend applying for an account at least two weeks prior to the first session"
@@ -39,8 +39,8 @@ intro:
 
 calendar:
   title: "Workshop Itinerary"
-  text: "<b>Please register for sessions by 8/22/2022 using the links at the bottom of this page.</b> </br> 
-  The Zoom join details are different for each session."
+  text: "<b>Please click on the session names below to learn more about each session.</b> </br> 
+  The Zoom join details are different for each session and sent after registration."
   text-href: /registration
   button: "See the Full Calendar"
   href: /events/upcoming
@@ -57,6 +57,10 @@ calendar:
     - text: "Explore how our collaborators currently use SCINet"
       href: /research/working-groups
 
+alerts: 
+  - alert: 
+    type: error
+    text: If you have issues accessing Ceres (either thru SSH or Open OnDemand) please attend Session 0 - Pre-meeting Technical Support on 8/25/2022 at 10am MDT. We cannot provide individual assistance for login issues in any other session.
 
 ---
 <br>
@@ -71,12 +75,12 @@ The 2022 SCINet Geospatial Workshop continues the efforts outlined from the 2020
 
 # Organizing Committee
 
-* Heather Savoy, Computational Biologist, Las Cruces, NM
+* Heather Savoy, SCINet Computational Biologist, Las Cruces, NM
 * John Humphreys, Research Ecologist, Sidney, MT
-* Amy Hudson, SCINet Postdoc, Las Cruces, NM
-* Ryan Lucas, Data Science Coordinator, Ft Collins, CO
 * Pat Clark, Rangeland Scientist, Boise, ID
-* Brian Stucky, Computational Biologist, Gainesville, FL
+* Amy Hudson, SCINet Postdoc, Las Cruces, NM
+* Ryan Lucas, SCINet Data Science Coordinator, Ft Collins, CO
+* Brian Stucky, SCINet Computational Biologist and acting CSIO, Gainesville, FL
 
 
 # How to Participate
@@ -89,7 +93,7 @@ The workshop is split over 11 separate Zoom sessions (as well as a pre-meeting a
 * Lectures on fundamental material related to geospatial data and parallel processing
 * Hands-on tutorials to assist researchers in utilizing the SCINet HPC systems
 
-**To follow along with the tutorials you need to already have or [apply for a SCINet account](https://scinet.usda.gov/signup/) and be able to successfully login to your account.**  We recommend applying for an account by 8/22/2022 at the latest, as the process can take 1-2 weeks for final approval. Please note, if you need help accessing your SCINet account you should plan on attending the pre-meeting login assistance session on 8/25/2022 (Session 0), but make sure you have applied for an account well in advance of this session.
+**To follow along with the tutorials you need to already have or [apply for a SCINet account](https://scinet.usda.gov/signup/) and be able to successfully login to your account.**  We recommend applying for an account by 8/22/2022 at the latest, as the process can take time for final approval. Please note, if you need help accessing your SCINet account you should plan on attending the pre-meeting login assistance session on 8/25/2022 (Session 0), but make sure you have applied for an account in advance of this session.
 
 **Please register for the sessions so we can have an idea of how many people will be present at each event.** Note, each session will have a separate Zoom link and password so you must register for each session you would like to attend.
 
