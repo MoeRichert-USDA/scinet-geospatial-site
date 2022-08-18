@@ -45,7 +45,10 @@ KEEP YOURSELF ON MUTE - Please mute yourself when not speaking,
 <br>
 {:.border-bottom}
 
-* Categorize geospatial data as raster or vector
+With only one hour, we are limited in how many geospatial basics we can cover. Since this workshop is geared towards addressing computationally expensive geospatial analyses, we will prioritize content relevant to that topic to provide foundation for the tutorials in upcoming sessions. Please see the links listed in Session 11 for additional geospatila training opportunities.
+
+* Classify geospatial data as raster or vector
+* Recognize geospatial operations that can be computationally expensive
 * Identify if a geospatial operation has: 
   * many independent tasks  
   * some locally-dependent tasks
