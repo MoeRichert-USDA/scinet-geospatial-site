@@ -1,7 +1,6 @@
 ---
 
 title: "Geospatial Workshop - Pre-meeting Checklist"
-author: Moe Richert
 description: Please complete this pre-meeting checklist ahead of any workshop sessions you plan to attend.
 permalink: /workshop/premeeting
 layout: nav
@@ -9,10 +8,10 @@ layout: nav
 subnav:
   - text: Tutorials
     href: '#tutorials'
-  - text: Access to the SCINet Ceres HPC System
-    href: '#access-to-the-scinet-ceres-hpc-system'
+  - text: Access to the SCINet HPC Systems
+    href: '#access-to-the-scinet-ceres-or-atlas-hpc-systems'
   - text: Software + Hardware + Nomenclature Overview
-    href: '#software-+-hardware-+-nomenclature-overview'
+    href: '#software--hardware--nomenclature-overview'
 
 
 ---
@@ -30,8 +29,8 @@ Please complete this pre-meeting checklist ahead of time if you plan to particip
       </div>
       <div class="usa-card__body">
             <ol>
-          <li>Have a SCINet account and be able to login. If you don't have one, [apply for one](https://scinet.usda.gov/about/signup) ASAP.</li>
-          <li>If you need help accessing your SCINet account, attend [Session 0: Pre-meeting Technical Support on 8/25/2022 at 10am MDT](events/2022-8-25-Geospatial-Workshop-0/).</li>
+          <li>Have a SCINet account and be able to login. If you don't have one, <a href="../about/signup">apply for one</a> ASAP.</li>
+          <li>If you need help accessing your SCINet account, attend <a href="../events/2022-8-25-Geospatial-Workshop-0/">Session 0: Pre-meeting Technical Support on 8/25/2020 at 10am MDT</a>.</li>
           <li>Register for the sessions you wish to attend by 8/25/2022.</li>
           <li>Familiarize yourself with the background information on this page.</li>
           <li>Optional but suggested: If using your laptop for these tutorials you may want to connect to a larger monitor so that you will have enough monitor space to see the zoom demonstration while also having your browser or terminal workspace open at the same time.</li>

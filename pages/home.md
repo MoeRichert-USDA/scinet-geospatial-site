@@ -21,6 +21,7 @@ hero:
       alt: "Globe Image"
   button:
     href: https://scinet.usda.gov/working-groups/geospatial
+    external: true
     text: Visit the Working Group
   container: full
 
@@ -35,27 +36,17 @@ intro:
     title: "Get Started with SCINet"
     text: "For this workshop, you will need to have a SCINet account and be able to successfully log in. We recommend applying for an account as soon as possible."
     button: Register for SCINet
-    href: /guide/quickstart
+    href: https://scinet.usda.gov/guide/quickstart
+    external: true
 
 calendar:
   title: "Workshop Itinerary"
   text: "<b>Please click on the session names below to learn more about each session.</b> </br> 
   The Zoom join details are different for each session and sent after registration. If you are unable to join a session, you will still be able to access and work through all the tutorials on your own using the session pages. We will make the Zoom recordings available after the meeting as well."
-  text-href: /registration
-  button: "See the Full Calendar"
-  href: /events/upcoming
-  alt-title: "Workshop Details"
-  alt-text: "This year's workshop has already passed.  You can still access the content from our workshop archive. All of the tutorials we covered during the workshop have been formatted such that you can follow along with them anytime on your own and at your own pace from our webpages."
-  alt-buttons:
-    - text: "View the available online training resources"
-      href: training/free-online-training
-    - text: "Add your name to the waitlist for future events"
-      href: https://forms.office.com/g/tVtE8wEgAt
-      external: true
-    - text: "Take a look at events we have hosted in the past"
-      href: /events/archive
-    - text: "Explore how our collaborators currently use SCINet"
-      href: /research/working-groups
+  text-href: /workshop/itinerary
+# text-href-external: true # if the text-href link is external
+  button: "Go to the Itinerary Page"
+  href: /workshop/itinerary
 
 
 ---
@@ -93,7 +84,7 @@ The workshop is split over 11 separate Zoom sessions (as well as a pre-meeting a
 * Hands-on tutorials to assist researchers in utilizing the SCINet HPC systems
 * Collaborative Bring-Your-Own-Problem sessions to discuss your research needs
 
-**To follow along with the tutorials you need to already have or [apply for a SCINet account](https://scinet.usda.gov/signup/) and be able to successfully login to your account.**  We recommend applying for an account by 8/22/2022 at the latest, as the process can take time for final approval. Please note, if you need help accessing your SCINet account you should plan on attending the pre-meeting login assistance session on 8/25/2022 (Session 0), but make sure you have applied for an account in advance of this session.
+**To follow along with the tutorials you need to already have or [apply for a SCINet account](about/signup) and be able to successfully login to your account.**  We recommend applying for an account by 8/22/2022 at the latest, as the process can take time for final approval. Please note, if you need help accessing your SCINet account you should plan on attending the pre-meeting login assistance session on 8/25/2022 (Session 0), but make sure you have applied for an account in advance of this session.
 
 **Please register for the sessions so we can have an idea of how many people will be present at each event.** Note, each session will have a separate Zoom link and password so you must register for each session you would like to attend. Calendar events with zoom links will be sent out based on registrations. 
 
