@@ -30,7 +30,7 @@ class:
             {% if page.calendar.text %}
             <div class="featured_posts">
                 <a
-                    href="{% if page.calendar.text-href %}{{ page.calendar.text-href }}{% else %}{{ page.calendar.text-href | relative_url }}{% endif %}">
+                    href="{% if page.calendar.text-href-external %}{{ page.calendar.text-href }}{% else %}{{ page.calendar.text-href | relative_url }}{% endif %}">
                     <div class="usa-card__container padding-2">
                         {{ page.calendar.text }}
                     </div>

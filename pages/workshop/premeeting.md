@@ -1,7 +1,6 @@
 ---
 
 title: "Geospatial Workshop - Pre-meeting Checklist"
-author: Moe Richert
 description: Please complete this pre-meeting checklist ahead of any workshop sessions you plan to attend.
 permalink: /workshop/premeeting
 layout: nav
@@ -9,10 +8,10 @@ layout: nav
 subnav:
   - text: Tutorials
     href: '#tutorials'
-  - text: Access to the SCINet Ceres HPC System
-    href: '#access-to-the-scinet-ceres-hpc-system'
+  - text: Access to the SCINet HPC Systems
+    href: '#access-to-the-scinet-ceres-or-atlas-hpc-systems'
   - text: Software + Hardware + Nomenclature Overview
-    href: '#software-+-hardware-+-nomenclature-overview'
+    href: '#software--hardware--nomenclature-overview'
 
 
 ---
