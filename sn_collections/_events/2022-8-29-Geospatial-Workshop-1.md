@@ -125,7 +125,7 @@ D) Expand SCINet HPC system software, hardware, and support to focus on our rese
 
 ### 2020 Workshop (Virtual)
 
-At the 2020 workshop, we: 
+The 2020 Workshop was planned following the key needs identified in the community in 2019 workshop. The workshop opened with short introductions of the first cohort of SCINet postdocs and a discussion on the status and needs for the SCINet geospatial common data library and workbooks. Participants were introduced to the Ceres HPC and worked through several tutorials ranging in complexity from the basic various ways to run jobs on Ceres, to running on clusters in parallel, reproducible research best practices, and a real world example of running an analysis on Ceres. Most of these tutorials were in a Python and JupyterLab framework. The workshop closed with seminars and a panel of researchers in academia and industry discussing their machine learning workflows to improve agricultural practices.
 
 
 # Lightning talks
