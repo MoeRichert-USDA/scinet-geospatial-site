@@ -19,15 +19,22 @@ sessions:
       - text: Have a SCINet account and be able to login 
         href: https://scinet.usda.gov/about/signup
         external: true
-      - text: Basic Python or other basic programming skill helpful (expertise not required)
+      - text: Basic python or other basic programming skill helpful (expertise not required)
+      - text: JupyterHub on Ceres via Open OnDemand will be used, so attending Session 4 may be helpful
 
+alerts: 
+  - alert: 
+    type: info
+    slim: true
+    text: This session overlaps with Session 6 which covers the same content but in R instead of python.
 
 subnav:
   - text: Learning objectives
     href: '#learning-objectives'
   - text: Agenda
     href: '#agenda'
-
+  - text: Tutorial material
+    href: '#tutorial-material'
 
 ---
 
@@ -50,6 +57,8 @@ KEEP YOURSELF ON MUTE - Please mute yourself when not speaking,
 <br>
 {:.border-bottom}
 
+This session will include tutorials exploring examples of handling geospatial data, performing geospatial calculations, and applying parallel processing approaches to geosptial processing workflows in python. JupyterHub via Open OnDemand (see [Session 4](events/2022-8-30-Geospatial-Workshop-4/)) will be used for a portion of the tutorials. 
+
 * Read in and manipulate raster data with the *rioxarray* and *xarray* packages
 * Read in and manipulate vector data with the *geopandas* package
 * Time chunks of code in your python script
@@ -59,8 +68,6 @@ KEEP YOURSELF ON MUTE - Please mute yourself when not speaking,
 ## Agenda
 <br>
 {:.border-bottom}
-
-Note: this session overlaps with Session 6 which covers the same content but in R instead of python. 
 
 This session will be an interactive tutorial:
 
@@ -72,5 +79,12 @@ This session will be an interactive tutorial:
 
 
 A recording of this session and discussion summary notes will be made available here after the workshop is complete. Each tutorial will be converted to [Geospatial Workbook](https://geospatial.101workbook.org) entries. 
+
+<br>
+## Tutorial material
+<br>
+{:.border-bottom}
+
+Coming soon
 
 <br>
