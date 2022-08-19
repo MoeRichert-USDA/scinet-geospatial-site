@@ -65,7 +65,7 @@ KEEP YOURSELF ON MUTE - Please mute yourself when not speaking,
 <br>
 {:.border-bottom}
 
-See our (working group page)[https://scinet.usda.gov/working-groups/geospatial] for general information about the working group. 
+See our [working group page](https://scinet.usda.gov/working-groups/geospatial) for general information about the working group. 
 
 Our main goals are to:
 * provide continued input on the development of SCINet,
