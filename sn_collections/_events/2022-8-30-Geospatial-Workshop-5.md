@@ -28,7 +28,8 @@ subnav:
     href: '#learning-objectives'
   - text: Agenda
     href: '#agenda'
-
+  - text: Tutorial material
+    href: '#tutorial-material'
 
 ---
 
@@ -51,9 +52,9 @@ KEEP YOURSELF ON MUTE - Please mute yourself when not speaking,
 <br>
 {:.border-bottom}
 
-The Geospatial Common Data Library (GeoCDL) is a product inspired by the discussion in the 2019 Workshop. 
+The Geospatial Common Data Library (GeoCDL) is a community-driven product inspired by the computational needs discussions in the previous working group workshops. This effort is motivated by the desire to reduce duplication of effort across ARS scientists in downloading and curating large geospatial datasets, avoid the storage of duplicate data on HPC resources, and lower the barrier of entry to new users interested in leveraging SCINet computing resources to analyze large and complex geospatial data. This session will include tutorials using the pilot version of the GeoCDL on Ceres.
 
-* Access the Geospatial Common Data Library API via the *rgeocdl* R package 
+* Access the GeoCDL API via the *rgeocdl* R package 
 * Query the API to list the datasets currently available
 * Download raster data within an area of interest
 * Download vector data at points of interest
@@ -68,12 +69,12 @@ The Geospatial Common Data Library (GeoCDL) is a product inspired by the discuss
 * Tutorial 2: Points of interest
 * Discussion: desired datasets and features
 
-## What is the Geospatial Common Data Library?
+<br>
+## Tutorial material
 <br>
 {:.border-bottom}
 
-The Geospatial Common Data Library (GeoCDL) is a product from previous workshops' discussions. The two primary goals of GeoCDL are to:
-* Reduce the barrier of entry of migrating geospatial workflows to SCINet by providing user-friendly 
+Coming soon
 
 
 <br>

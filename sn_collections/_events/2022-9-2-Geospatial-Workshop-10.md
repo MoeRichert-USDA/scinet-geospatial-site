@@ -22,12 +22,8 @@ sessions:
 
 
 subnav:
-  - text: Tutorials
-    href: '#tutorials'
-  - text: Access to the SCINet Ceres HPC System
-    href: '#access-to-the-scinet-ceres-hpc-system'
-  - text: Software + Hardware + Nomenclature Overview
-    href: '#software-+-hardware-+-nomenclature-overview'
+  - text: Agenda
+    href: '#agenda'
 
 
 ---

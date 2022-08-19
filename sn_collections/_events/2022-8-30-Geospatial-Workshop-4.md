@@ -19,7 +19,7 @@ sessions:
       - text: Have a SCINet account and be able to login 
         href: https://scinet.usda.gov/about/signup
         external: true
-      - text: Basic understanding of queues and requesting cores. If you are unfamiliar with these topics, please attend Session 3 on parallel processing fundamentals.
+      - text: Basic understanding of partitions and requesting cores. If you are unfamiliar with these topics, please attend Session 3 on parallel processing fundamentals.
 
 
 subnav:
@@ -27,6 +27,8 @@ subnav:
     href: '#learning-objectives'
   - text: Agenda
     href: '#agenda'
+  - text: Tutorial material
+    href: '#tutorial-material'
 
 
 ---
@@ -53,14 +55,15 @@ KEEP YOURSELF ON MUTE - Please mute yourself when not speaking,
 Many of us typically develop our geospatial processing workflows in Integrated Development Environments (IDEs), e.g. RStudio, or other Graphical User Interfaces (GUIs). In the past, using HPC resources required connecting to the cluster, transferring files, and submitting jobs to be all done in Unix commands. Although that is still an option, there are now many options for web access to HPC resources using applications to which users are 
 accustomed. This session will cover a few geospatial-relevent applications available via Open OnDemand portals on Ceres and Atlas.
 
-* Launch an interactive session of RStudio and JupyterHub on Ceres or Atlas from your web browser
+* Launch an interactive session of RStudio and JupyterHub on Ceres from your web browser
 * Identify scenarios when interactive environments are or are not advantageous
 
+<br>
 ## Agenda
 <br>
 {:.border-bottom}
 
-This is the first interactive tutorial session. We will be accessing the interactive environments available via [Open OnDemand on Ceres](https://ceres-ood.scinet.usda.gov/) and [Atlas](https://atlas-ood.hpc.msstate.edu/). There will be a few introductory slides, a period of screen-sharing to navigate the portal in a browser window, and then example scripts to execute within the environments.  We will cover the following content:
+This is the first interactive tutorial session. We will be accessing the interactive environments available via [Open OnDemand on Ceres](https://ceres-ood.scinet.usda.gov/). There will be a few introductory slides, a period of screen-sharing to navigate the portal in a browser window, and then example scripts to execute within the environments.  We will cover the following content:
 
 * When to use interactive environments (advantages and limitations) 
 * Overview of Open OnDemand layout and Ceres/Atlas specifics
@@ -69,9 +72,14 @@ This is the first interactive tutorial session. We will be accessing the interac
 * Jupyter
 * Desktops 
 
-Coming soon: links to the example scripts 
-
 A recording of this presentation and discussion summary notes will be made available here after the workshop is complete.
+
+<br>
+## Tutorial material
+<br>
+{:.border-bottom}
+
+Coming soon
 
 
 <br>

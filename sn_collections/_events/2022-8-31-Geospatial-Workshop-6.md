@@ -20,6 +20,14 @@ sessions:
         href: https://scinet.usda.gov/about/signup
         external: true
       - text: Basic R or other basic programming skill helpful (expertise not required)
+      - text: RStudio on Ceres via Open OnDemand will be used, so attending Session 4 may be helpful
+
+
+alerts: 
+  - alert: 
+    type: info
+    slim: true
+    text: This session overlaps with Session 8 which covers the same content but in python instead of R.
 
 
 subnav:
@@ -27,7 +35,8 @@ subnav:
     href: '#learning-objectives'
   - text: Agenda
     href: '#agenda'
-
+  - text: Tutorial material
+    href: '#tutorial-material'
 
 ---
 
@@ -50,6 +59,8 @@ KEEP YOURSELF ON MUTE - Please mute yourself when not speaking,
 <br>
 {:.border-bottom}
 
+This session will include tutorials exploring examples of handling geospatial data, performing geospatial calculations, and applying parallel processing approaches to geosptial processing workflows in R. RStudio via Open OnDemand (see [Session 4](events/2022-8-30-Geospatial-Workshop-4/)) will be used for a portion of the tutorials. 
+
 * Read in and manipulate raster data with the *terra* and *stars* packages
 * Read in and manipulate vector data with the *sf* package
 * Time chunks of code in your R script
@@ -59,8 +70,6 @@ KEEP YOURSELF ON MUTE - Please mute yourself when not speaking,
 ## Agenda
 <br>
 {:.border-bottom}
-
-Note: this session overlaps with Session 8 which covers the same content but in python instead of R.
 
 This session will be an interactive tutorial:
 
@@ -72,5 +81,12 @@ This session will be an interactive tutorial:
 
 
 A recording of this session and discussion summary notes will be made available here after the workshop is complete. Each tutorial will be converted to [Geospatial Workbook](https://geospatial.101workbook.org) entries. 
+
+<br>
+## Tutorial material
+<br>
+{:.border-bottom}
+
+Coming soon
 
 <br>
