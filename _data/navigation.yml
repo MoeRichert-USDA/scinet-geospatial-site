@@ -31,6 +31,8 @@ primary:
     links:
       - text: Workshop Itinerary
         href: /workshop/itinerary
+      - text: Registration
+        href: /workshop/registration
       - text: 0 - Tech Support
         href: /events/2022-8-25-Geospatial-Workshop-0/
       - text: 1 - Introduction to SCINet
