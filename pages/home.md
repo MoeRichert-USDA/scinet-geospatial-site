@@ -84,7 +84,7 @@ The workshop is split over 11 separate Zoom sessions (as well as a pre-meeting a
 * Hands-on tutorials to assist researchers in utilizing the SCINet HPC systems
 * Collaborative Bring-Your-Own-Problem sessions to discuss your research needs
 
-**To follow along with the tutorials you need to already have or [apply for a SCINet account](https://scinet.usda.gov/signup/) and be able to successfully login to your account.**  We recommend applying for an account by 8/22/2022 at the latest, as the process can take time for final approval. Please note, if you need help accessing your SCINet account you should plan on attending the pre-meeting login assistance session on 8/25/2022 (Session 0), but make sure you have applied for an account in advance of this session.
+**To follow along with the tutorials you need to already have or [apply for a SCINet account](about/signup) and be able to successfully login to your account.**  We recommend applying for an account by 8/22/2022 at the latest, as the process can take time for final approval. Please note, if you need help accessing your SCINet account you should plan on attending the pre-meeting login assistance session on 8/25/2022 (Session 0), but make sure you have applied for an account in advance of this session.
 
 **Please register for the sessions so we can have an idea of how many people will be present at each event.** Note, each session will have a separate Zoom link and password so you must register for each session you would like to attend. Calendar events with zoom links will be sent out based on registrations. 
 
