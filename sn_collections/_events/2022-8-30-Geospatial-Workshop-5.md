@@ -51,6 +51,8 @@ KEEP YOURSELF ON MUTE - Please mute yourself when not speaking,
 <br>
 {:.border-bottom}
 
+The Geospatial Common Data Library (GeoCDL) is a product inspired by the discussion in the 2019 Workshop. 
+
 * Access the Geospatial Common Data Library API via the *rgeocdl* R package 
 * Query the API to list the datasets currently available
 * Download raster data within an area of interest
