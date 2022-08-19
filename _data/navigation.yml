@@ -31,8 +31,6 @@ primary:
     links:
       - text: Workshop Itinerary
         href: /workshop/itinerary
-      - text: Registration
-        href: /workshop/registration
       - text: 0 - Tech Support
         href: /events/2022-8-25-Geospatial-Workshop-0/
       - text: 1 - Introduction to SCINet
@@ -57,10 +55,6 @@ primary:
         href: /events/2022-9-2-Geospatial-Workshop-10/
       - text: 11 - Closing Discussion
         href: /events/2022-9-2-Geospatial-Workshop-11/
-  - text: Session Archive
-    href: /workshop/archive
-  - text: Contributors
-    href: /workshop/contributers
 
 
 
@@ -75,7 +69,8 @@ footer:
     - text: Contact
       href: /about/contact
     - text: Fellowships
-      href: /opportunities/postdocs
+      href: https://scinet.usda.gov/opportunities/postdocs
+      external: true
   - text: USDA
     links:
     - text: AskUSDA

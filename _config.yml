@@ -42,7 +42,7 @@ anchor_js_targets: [h1, h2, h3, h4, h5, h6]
 # Your search_site_handle value is from the search.gov settings page.
 
 # Your search_site_handle value is from the search.gov settings page.
-search_site_handle: scinet-usda
+# search_site_handle: scinet-usda
 
 # touchpoints_form_id:
 
