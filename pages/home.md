@@ -21,6 +21,7 @@ hero:
       alt: "Globe Image"
   button:
     href: https://scinet.usda.gov/working-groups/geospatial
+    external: true
     text: Visit the Working Group
   container: full
 
@@ -42,8 +43,8 @@ calendar:
   text: "<b>Please click on the session names below to learn more about each session.</b> </br> 
   The Zoom join details are different for each session and sent after registration. If you are unable to join a session, you will still be able to access and work through all the tutorials on your own using the session pages. We will make the Zoom recordings available after the meeting as well."
   text-href: /registration
-  button: "See the Full Calendar"
-  href: /events/upcoming
+  button: "Go to the Itinerary Page"
+  href: /workshop/itinerary
   alt-title: "Workshop Details"
   alt-text: "This year's workshop has already passed.  You can still access the content from our workshop archive. All of the tutorials we covered during the workshop have been formatted such that you can follow along with them anytime on your own and at your own pace from our webpages."
   alt-buttons:
