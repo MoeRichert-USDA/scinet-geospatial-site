@@ -23,16 +23,18 @@ sessions:
 
 
 subnav:
-  - text: Tutorials
-    href: '#tutorials'
-  - text: Access to the SCINet Ceres HPC System
-    href: '#access-to-the-scinet-ceres-hpc-system'
-  - text: Software + Hardware + Nomenclature Overview
-    href: '#software-+-hardware-+-nomenclature-overview'
+  - text: Agenda
+    href: '#agenda'
 
 
 ---
 
 <br>
 
+## Agenda
+<br>
+{:.border-bottom}
+
 The objective of the Bring Your Own Problem (BYOP) sessions is to allow workshop participants to discuss their workflow needs, raise follow-up questions about session material, or initiate any discussion related to geospatial analyses on SCINet. Multiple BYOP sessions are scheduled to give everyone adequate time to participate and to allow questions to be re-visited if time outside of sessions is needed for follow-up. 
+
+<br>

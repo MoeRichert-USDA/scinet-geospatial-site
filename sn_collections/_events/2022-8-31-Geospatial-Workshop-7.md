@@ -22,18 +22,32 @@ sessions:
 
 
 subnav:
-  - text: Tutorials
-    href: '#tutorials'
-  - text: Access to the SCINet Ceres HPC System
-    href: '#access-to-the-scinet-ceres-hpc-system'
-  - text: Software + Hardware + Nomenclature Overview
-    href: '#software-+-hardware-+-nomenclature-overview'
+  - text: Agenda
+    href: '#agenda'
 
 
 ---
 
 <br>
 
+## Session Rules
+
+<br>
+{:.border-bottom}
+
+CHAT QUESTIONS/COMMENTS TAKE FIRST PRIORITY - Chat your question/comments either to everyone (preferred) or to the chat moderator (Ryan Lucas) privately to have your question/comment read out loud anonamously. We will answer chat questions first and call on people who have written in the chat before we take questions from raised hands.
+
+SHARE YOUR VIDEO WHEN SPEAKING - If your internet plan/connectivity allows, please share your video when speaking.
+
+KEEP YOURSELF ON MUTE - Please mute yourself when not speaking,
+
+## Agenda
+<br>
+{:.border-bottom}
+
+
 The objective of the Bring Your Own Problem (BYOP) sessions is to allow workshop participants to discuss their workflow needs, raise follow-up questions about session material, or initiate any discussion related to geospatial analyses on SCINet. Multiple BYOP sessions are scheduled to give everyone adequate time to participate and to allow questions to be re-visited if time outside of sessions is needed for follow-up. 
 
-For this initial BYOP session, we will have a demonstration of using Open Drone Map on Atlas. 
+For this initial BYOP session, we will have a demonstration of using Open Drone Map on Atlas. A recording of the demo will be provided here after the workshop is complete. 
+
+<br>
