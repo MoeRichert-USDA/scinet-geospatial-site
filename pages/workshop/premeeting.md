@@ -9,10 +9,10 @@ layout: nav
 subnav:
   - text: Tutorials
     href: '#tutorials'
-  - text: Access to the SCINet Ceres HPC System
-    href: '#access-to-the-scinet-ceres-hpc-system'
+  - text: Access to the SCINet HPC Systems
+    href: '#access-to-the-scinet-ceres-or-atlas-hpc-systems'
   - text: Software + Hardware + Nomenclature Overview
-    href: '#software-+-hardware-+-nomenclature-overview'
+    href: '#software--hardware--nomenclature-overview'
 
 
 ---
