@@ -65,6 +65,11 @@ main:
         {% if page.title %}
             <h1 class="top-header">{{ page.title }}</h1>
         {% endif %}
+
+        {% if page.summarybox %}
+          <br>
+          {% include components/summary.html summary=page.summarybox %}
+        {% endif %}
         {{ content }}
         
         <br>
