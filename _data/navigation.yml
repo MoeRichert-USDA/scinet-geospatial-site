@@ -20,9 +20,6 @@ primary:
     links:
       - text: Sign up for a SCINet account
         href: /about/signup
-      - text: Github Signup
-        href: https://github.com/join
-        external: true
       - text: Contact
         href: /about/contact
   - text: Premeeting Checklist
