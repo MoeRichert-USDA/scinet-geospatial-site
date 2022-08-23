@@ -30,7 +30,7 @@ sessions:
 
 subnav:
   - text: What is the SCINet Geospatial Research Working Group?
-    href: '#what-is-the-scinet-geospatial-research-working-group?'
+    href: '#what-is-the-scinet-geospatial-research-working-group'
   - text: Review of previous workshops
     href: '#review-of-previous-workshops'
   - text: Lightning talks
