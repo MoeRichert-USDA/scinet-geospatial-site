@@ -56,6 +56,7 @@ KEEP YOURSELF ON MUTE - Please mute yourself when not speaking,
 <br>
 {:.border-bottom}
 
+* Overview of SCINet resources
 * Introduce SCINet office, organizing committee, and helpers 
 * Describe past workshops, current goals, and overview of sessions
 * Lightning presentations on geospatial workflows

@@ -31,7 +31,7 @@ intro:
     title: "How to Participate"
     text: "<b>All members of the working group are welcome to participate!</b> We also welcome anyone interested in learning about the working group, SCINet, or geospatial research to attend the introductory Session 1.  
     </br></br>
-    Please register by 8/25/2022 to ensure you will receive event updates and be added to the workshop project space on SCINet."
+    Please register before 8/25/2022 to ensure you will receive event updates and be added to the workshop project space on SCINet."
   card: 
     title: "Get Started with SCINet"
     text: "For this workshop, you will need to have a SCINet account and be able to successfully log in. We recommend applying for an account as soon as possible."
