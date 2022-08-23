@@ -12,8 +12,8 @@
         {{ summary.text }}
         {% if summary.list %}
         <ul>
-        {% for point in summary.list %}
-            <li>{{ point }}</li>
+        {% for _point in summary.list %}
+            <li>{{ _point.point }}</li>
         {% endfor %}
         </ul>
         {% endif %}
