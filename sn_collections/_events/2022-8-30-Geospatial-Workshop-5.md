@@ -57,7 +57,7 @@ The Geospatial Common Data Library (GeoCDL) is a community-driven product inspir
 * Access the GeoCDL API via the *rgeocdl* R package 
 * Query the API to list the datasets currently available
 * Download raster data within an area of interest
-* Download vector data at points of interest
+* Download extracted raster data at points of interest
 
 ## Agenda
 <br>

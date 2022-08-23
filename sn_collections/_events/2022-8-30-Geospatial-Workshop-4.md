@@ -55,7 +55,8 @@ KEEP YOURSELF ON MUTE - Please mute yourself when not speaking,
 Many of us typically develop our geospatial processing workflows in Integrated Development Environments (IDEs), e.g. RStudio, or other Graphical User Interfaces (GUIs). In the past, using HPC resources required connecting to the cluster, transferring files, and submitting jobs to be all done in Unix commands. Although that is still an option, there are now many options for web access to HPC resources using applications to which users are 
 accustomed. This session will cover a few geospatial-relevent applications available via Open OnDemand portals on Ceres and Atlas.
 
-* Launch an interactive session of RStudio and JupyterHub on Ceres from your web browser
+* Launch an interactive session of RStudio and JupyterLab on Ceres from your web browser
+* Launch an interactive desktop session on Ceres from your web browser and run QGIS 
 * Identify scenarios when interactive environments are or are not advantageous
 
 <br>
@@ -70,7 +71,7 @@ This is the first interactive tutorial session. We will be accessing the interac
 * Launch parameters 
 * RStudio 
 * Jupyter
-* Desktops 
+* Desktops with QGIS
 
 A recording of this presentation and discussion summary notes will be made available here after the workshop is complete.
 

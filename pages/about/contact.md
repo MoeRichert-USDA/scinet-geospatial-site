@@ -7,12 +7,10 @@ layout: nav
 
 ---
 
+For questions related to the workshop or working group in general, contact the working group co-leads Heather Savoy ([heather.savoy@usda.gov](mailto:heather.savoy@usda.gov)) or John Humphreys ([john.humphreys@usda.gov](mailto:john.humphreys@usda.gov)). 
 
-Email [scinet_vrsc@USDA.GOV](mailto:scinet_vrsc@USDA.GOV) for:
-* questions or feedback about this website
-* questions about the SCINet newsletter or to contribute content
-* technical assistance with your SCINet account
+For technical assistance with your SCINet account, email [scinet_vrsc@USDA.GOV](mailto:scinet_vrsc@usda.gov). 
 
 All inquires for help from the SCINet Office should be sent to [SCINet-training@usda.gov](mailto:SCINet-training@usda.gov) or the [CSIO](mailto:ARS-CSIO.usda.gov).
 
-To contact SCINet users, post on the [SCINet forum](https://forum.scinet.usda.gov) (you must have a SCINet account to access)
+To contact SCINet users, post on the [SCINet forum](https://forum.scinet.usda.gov) (you must have a SCINet account to access).
