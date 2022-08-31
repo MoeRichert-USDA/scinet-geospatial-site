@@ -95,15 +95,19 @@ Steps to prepare for the tutorial:
 
 If you have already made your workshop folder in previous sessions, you will only need to run the following commands, replacing *firstname.lastname* with your actual name: 
 
+```bash
 cd /90daydata/shared/firstname.lastname
-cp -r /project/geospatialworkshop/session6/ .
+cp -r /project/geospatialworkshop/session6/
+```
 
 If you have not created your workshop folder yet, run these commands instead, replacing *firstname.lastname* with your actual name:
 
+```bash
 cd /90daydata/shared
 mkdir firstname.lastname
 cd firstname.lastname
-cp -r /project/geospatialworkshop/session6/ .
+cp -r /project/geospatialworkshop/session6/ 
+```
 
 3. **Launch a RStudio session.** Choose the following values from the menu:
 
@@ -118,6 +122,8 @@ Click *Launch*.
 
 4. **The tutorials:** The first two tutorials will follow Rmarkdown documents in RStudio. For the third tutorial, we will submit a job to SLURM directly. If your shell from Step 2 has expired when we start the third tutorial, please reconnect, and change directory to your session 6 folder:
 
+```bash
 cd /90daydata/shared/firstname.lastname/session6
+```
 
 <br>
