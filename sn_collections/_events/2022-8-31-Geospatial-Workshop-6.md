@@ -88,21 +88,21 @@ Steps to prepare for the tutorial:
 
 2. **Copy the Session 6 material from the workshop project space to your temporary workshop folder.** To get to a shell to do so, you can use the *Clusters* tab at the top of your Open OnDemand page to select 'Ceres Shell Access' (if prompted for a password, enter your SCINet account password without the verification code). If you are comfortable ssh-ing in instead from terminal or powershell, feel free to do so.
 
-If you have already made your workshop folder in previous sessions, you will only need to run the following commands, replacing *firstname.lastname* with your actual name: 
+    If you have already made your workshop folder in previous sessions, you will only need to run the following commands, replacing *firstname.lastname* with your actual name: 
 
-```bash
-cd /90daydata/shared/firstname.lastname
-cp -r /project/geospatialworkshop/session6/
-```
+    ```bash
+    cd /90daydata/shared/firstname.lastname
+    cp -r /project/geospatialworkshop/session6/
+    ```
 
-If you have not created your workshop folder yet, run these commands instead, replacing *firstname.lastname* with your actual name:
+    If you have not created your workshop folder yet, run these commands instead, replacing *firstname.lastname* with your actual name:
 
-```bash
-cd /90daydata/shared
-mkdir firstname.lastname
-cd firstname.lastname
-cp -r /project/geospatialworkshop/session6/ 
-```
+    ```bash
+    cd /90daydata/shared
+    mkdir firstname.lastname
+    cd firstname.lastname
+    cp -r /project/geospatialworkshop/session6/ 
+    ```
 
 3. **Launch a RStudio session.** Choose the following values from the menu:
 
@@ -117,8 +117,8 @@ cp -r /project/geospatialworkshop/session6/
 
 4. **The tutorials:** The first two tutorials will follow Rmarkdown documents in RStudio. For the third tutorial, we will submit a job to SLURM directly. If your shell from Step 2 has expired when we start the third tutorial, please reconnect, and change directory to your session 6 folder:
 
-```bash
-cd /90daydata/shared/firstname.lastname/session6
-```
+    ```bash
+    cd /90daydata/shared/firstname.lastname/session6
+    ```
 
 <br>
