@@ -106,14 +106,14 @@ cp -r /project/geospatialworkshop/session6/
 
 3. **Launch a RStudio session.** Choose the following values from the menu:
 
-Account: geospatialworkshop
-Slurm Partition: workshop
-R version: 4.2
-Number of hours: 3
-Number of cores: 16
-Memory required: 64G
-
-Click *Launch*.
+    * Account: geospatialworkshop
+    * Slurm Partition: workshop
+    * R version: 4.2
+    * Number of hours: 3
+    * Number of cores: 16
+    * Memory required: 64G
+  
+    Click *Launch*.
 
 4. **The tutorials:** The first two tutorials will follow Rmarkdown documents in RStudio. For the third tutorial, we will submit a job to SLURM directly. If your shell from Step 2 has expired when we start the third tutorial, please reconnect, and change directory to your session 6 folder:
 
