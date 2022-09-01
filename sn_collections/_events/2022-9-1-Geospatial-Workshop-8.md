@@ -54,7 +54,7 @@ summarybox:
 
 This session will include tutorials exploring examples of handling geospatial data, performing geospatial calculations, and applying parallel processing approaches to geospatial processing workflows in python. JupyterLab via Open OnDemand (see [Session 4](events/2022-8-30-Geospatial-Workshop-4/)) will be used for a portion of the tutorials. 
 
-* Read in and manipulate raster data with the *rioxarray* and *xarray* packages
+* Read in and manipulate raster data with the *rioxarray* package
 * Read in and manipulate vector data with the *geopandas* package
 * Time chunks of code in your python script
 * Identify package functions with parallelization options built-in
@@ -68,9 +68,9 @@ This session will be an interactive tutorial:
 
 * Geospatial packages
 * Parallel processing packages
-* Raster tutorial 1
-* Raster tutorial 2
-* Vector tutorial
+* Vector tutorial 
+* Raster tutorial 
+* Vector-raster tutorial
 
 
 A recording of this session and discussion summary notes will be made available here after the workshop is complete. Each tutorial will be converted to [Geospatial Workbook](https://geospatial.101workbook.org) entries. 
@@ -80,6 +80,51 @@ A recording of this session and discussion summary notes will be made available 
 <br>
 {:.border-bottom}
 
-Coming soon
+Steps to prepare for the tutorial:
+
+1. **Login to Ceres Open OnDemand** at [https://ceres-ood.scinet.usda.gov](https://ceres-ood.scinet.usda.gov). Your username is typically *firstname.lastname*. For the password, enter your SCINet account password followed by the 6-digit verification code, e.g. from a Google Authenticator app on your phone, with no spaces. Do not add a '+' between your password and code. 
+
+2. **Copy the Session 6-8 material from the workshop project space to your temporary workshop folder.** The contents of this session have been added to the Session 6 folder since they share the same data. To get to a shell to do the copying, you can use the *Clusters* tab at the top of your Open OnDemand page to select 'Ceres Shell Access' (if prompted for a password, enter your SCINet account password without the verification code). If you are comfortable ssh-ing in instead from terminal or powershell, feel free to do so.
+
+    If you have already made your workshop folder in previous sessions, you will only need to run the following commands, replacing *firstname.lastname* with your actual name: 
+
+    ```bash
+    cd /90daydata/shared/firstname.lastname
+    cp -r /project/geospatialworkshop/session6/ .
+    module load miniconda
+    source activate /project/geospatialworkshop/gwenv
+    ipython kernel install --user --name=grwg_workshop
+    ```
+
+    If you have not created your workshop folder yet, run these commands instead, replacing *firstname.lastname* with your actual name:
+
+    ```bash
+    cd /90daydata/shared
+    mkdir firstname.lastname
+    cd firstname.lastname
+    cp -r /project/geospatialworkshop/session6/ .
+    module load miniconda
+    source activate /project/geospatialworkshop/gwenv
+    ipython kernel install --user --name=grwg_workshop
+    ```
+
+3. **Launch a RStudio session.** Choose the following values from the menu:
+
+    * Account: geospatialworkshop
+    * Slurm Partition: workshop
+    * R version: 4.2
+    * Number of hours: 3
+    * Number of cores: 16
+    * Memory required: 64G
+    * Jupyter Notebook vs Lab: Lab
+    * Working Directory: /90daydata/shared/firstname.lastname
+  
+    Click *Launch*.
+
+4. **The tutorials:** The first two tutorials will follow Rmarkdown documents in RStudio. For the third tutorial, we will submit a job to SLURM directly. If your shell from Step 2 has expired when we start the third tutorial, please reconnect, and change directory to your session 6 folder:
+
+    ```bash
+    cd /90daydata/shared/firstname.lastname/session6
+    ```
 
 <br>
