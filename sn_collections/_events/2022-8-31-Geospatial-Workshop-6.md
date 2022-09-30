@@ -80,12 +80,18 @@ This session will be an interactive tutorial:
 * Vector-raster tutorial
 
 
-A recording of this session and discussion summary notes will be made available here after the workshop is complete. Each tutorial will be converted to [Geospatial Workbook](https://geospatial.101workbook.org) entries. 
-
 <br>
 ## Tutorial material
 <br>
 {:.border-bottom}
+
+Written versions of these tutorials, modified to be accessible to any SCINet user,
+are available on the Geospatial Workbook:
+* [Handling vector data](https://geospatial.101workbook.org/ExampleGeoWorkflows/GRWG22_VectorData_R)
+* [Raster calculations with tiles](https://geospatial.101workbook.org/ExampleGeoWorkflows/GRWG22_RasterTiles_R)
+* [Zonal statistics with SLURM](https://geospatial.101workbook.org/ExampleGeoWorkflows/GRWG22_ZonalStats_wSLURM_R)
+
+The workshops-specific instructions are kept below.
 
 Steps to prepare for the tutorial:
 
@@ -125,5 +131,9 @@ cp -r /project/geospatialworkshop/session6/
 ```bash
 cd /90daydata/shared/firstname.lastname/session6
 ```
+
+
+
+
 
 <br>

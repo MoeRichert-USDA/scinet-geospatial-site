@@ -78,12 +78,18 @@ This session will be an interactive tutorial:
 * Vector-raster tutorial
 
 
-A recording of this session and discussion summary notes will be made available here after the workshop is complete. Each tutorial will be converted to [Geospatial Workbook](https://geospatial.101workbook.org) entries. 
-
 <br>
 ## Tutorial material
 <br>
 {:.border-bottom}
+
+Written versions of these tutorials, modified to be accessible to any SCINet user,
+are available on the Geospatial Workbook:
+* [Handling vector data](https://geospatial.101workbook.org/ExampleGeoWorkflows/GRWG22_VectorData_python)
+* [Raster calculations with tiles](https://geospatial.101workbook.org/ExampleGeoWorkflows/GRWG22_RasterTiles_python)
+* [Zonal statistics with SLURM](https://geospatial.101workbook.org/ExampleGeoWorkflows/GRWG22_ZonalStats_wSLURM_python)
+
+The workshops-specific instructions are kept below.
 
 Steps to prepare for the tutorial:
 
@@ -113,20 +119,18 @@ Steps to prepare for the tutorial:
     ipython kernel install --user --name=grwg_workshop
     ```
 
-3. **Launch a RStudio session.** Choose the following values from the menu:
+3. **Launch a JupyterLab session.** Choose the following values from the menu:
 
     * Account: geospatialworkshop
     * Slurm Partition: workshop
-    * R version: 4.2
     * Number of hours: 3
     * Number of cores: 16
-    * Memory required: 64G
     * Jupyter Notebook vs Lab: Lab
     * Working Directory: /90daydata/shared/firstname.lastname
   
     Click *Launch*.
 
-4. **The tutorials:** The first two tutorials will follow Rmarkdown documents in RStudio. For the third tutorial, we will submit a job to SLURM directly. If your shell from Step 2 has expired when we start the third tutorial, please reconnect, and change directory to your session 6 folder:
+4. **The tutorials:** Two tutorials will follow python notebooks in JupyterLab. For the third tutorial, we will submit a job to SLURM directly. If your shell from Step 2 has expired when we start this tutorial, please reconnect, and change directory to your session 6 folder:
 
     ```bash
     cd /90daydata/shared/firstname.lastname/session6
