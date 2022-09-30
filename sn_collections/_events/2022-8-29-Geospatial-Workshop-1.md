@@ -127,6 +127,7 @@ The 2020 Workshop was planned following the key needs identified in the communit
 
 # Lightning talks
 
-A list of the lightning talk presenters and topics coming soon. Recordings will be made available here after the workshop is complete. 
+[Watch a recording of this presentation and lightning talks](https://web.microsoftstream.com/video/d4cac1a5-bafc-409d-b8fd-fd7127a262a8). 
+
 
 <br>

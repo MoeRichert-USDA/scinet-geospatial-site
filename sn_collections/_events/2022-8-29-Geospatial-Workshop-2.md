@@ -62,6 +62,7 @@ This session will be a lecture with slides covering the following content:
   * Common computationally expensive operations
 * Geospatial Data Abstraction Library (GDAL)
 
-A recording of this presentation and discussion summary notes will be made available here after the workshop is complete. 
+[Watch a recording of this presentation](https://web.microsoftstream.com/video/125dba00-b307-4675-8575-c3fe0771d914). 
+
 
 <br>

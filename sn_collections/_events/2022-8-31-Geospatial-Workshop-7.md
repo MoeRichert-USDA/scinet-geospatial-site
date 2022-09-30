@@ -43,6 +43,9 @@ summarybox:
 
 The objective of the Bring Your Own Problem (BYOP) sessions is to allow workshop participants to discuss their workflow needs, raise follow-up questions about session material, or initiate any discussion related to geospatial analyses on SCINet. Multiple BYOP sessions are scheduled to give everyone adequate time to participate and to allow questions to be re-visited if time outside of sessions is needed for follow-up. 
 
-For this initial BYOP session, we will have a demonstration of using Open Drone Map on Atlas. A recording of the demo will be provided here after the workshop is complete. 
+For this initial BYOP session, we will have a demonstration of using Open Drone Map on Atlas. 
+
+#### Post-workshop update
+[Watch a recording of the Open Drone Map on Atlas demonstration](https://web.microsoftstream.com/video/6c6c9efd-2a01-43d0-9736-23670d1e564a).  
 
 <br>

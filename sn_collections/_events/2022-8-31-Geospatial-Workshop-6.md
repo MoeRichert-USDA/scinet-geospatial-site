@@ -75,12 +75,15 @@ This session will be an interactive tutorial:
 * Vector-raster tutorial
 
 
-A recording of this session and discussion summary notes will be made available here after the workshop is complete. Each tutorial will be converted to [Geospatial Workbook](https://geospatial.101workbook.org) entries. 
-
 <br>
 ## Tutorial material
 <br>
 {:.border-bottom}
+
+Written versions of these tutorials, modified to be accessible to any SCINet user,
+are available on the [Geospatial Workbook](https://geospatial.101workbook.org/ExampleGeoWorkflows/GRWGWorkshop)
+
+The workshop-specific instructions are kept below.
 
 Steps to prepare for the tutorial:
 
@@ -120,5 +123,9 @@ Steps to prepare for the tutorial:
     ```bash
     cd /90daydata/shared/firstname.lastname/session6
     ```
+
+
+
+
 
 <br>

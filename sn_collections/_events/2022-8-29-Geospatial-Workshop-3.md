@@ -59,6 +59,7 @@ This session will be a lecture with slides covering the following content:
   * Choosing number of cores  
 * SLURM jobs, nodes, and partitions
 
-A recording of this presentation and discussion summary notes will be made available here after the workshop is complete. 
+[Watch a recording of this presentation](https://web.microsoftstream.com/video/f12c8fd7-7459-402e-9e1b-8513bd011bcb). 
+ 
 
 <br>

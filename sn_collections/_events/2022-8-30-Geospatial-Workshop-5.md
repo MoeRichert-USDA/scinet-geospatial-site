@@ -69,7 +69,10 @@ The Geospatial Common Data Library (GeoCDL) is a community-driven product inspir
 <br>
 {:.border-bottom}
 
-Coming soon
+A recording of this tutorial is coming soon. 
+
+A written version of this tutorial, modified to be accessible to any SCINet user,
+is available on the [Geospatial Workbook](https://geospatial.101workbook.org/ExampleGeoWorkflows/GRWG22_GeoCDL_R).
 
 
 <br>
