@@ -79,12 +79,9 @@ This session will be an interactive tutorial:
 {:.border-bottom}
 
 Written versions of these tutorials, modified to be accessible to any SCINet user,
-are available on the Geospatial Workbook:
-* [Handling vector data](https://geospatial.101workbook.org/ExampleGeoWorkflows/GRWG22_VectorData_python)
-* [Raster calculations with tiles](https://geospatial.101workbook.org/ExampleGeoWorkflows/GRWG22_RasterTiles_python)
-* [Zonal statistics with SLURM](https://geospatial.101workbook.org/ExampleGeoWorkflows/GRWG22_ZonalStats_wSLURM_python)
+are available on the [Geospatial Workbook](https://geospatial.101workbook.org/ExampleGeoWorkflows/GRWGWorkshop)
 
-The workshops-specific instructions are kept below.
+The workshop-specific instructions are kept below.
 
 Steps to prepare for the tutorial:
 
