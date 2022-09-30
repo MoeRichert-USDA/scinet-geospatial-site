@@ -26,20 +26,15 @@ subnav:
     href: '#agenda'
 
 
+summarybox:
+  header: Session Rules
+  list:
+    - point: <b>Chat questions/comments take first priority</b> - Chat your question/comments either to everyone (preferred) or to the chat moderator (Ryan Lucas) privately to have your question/comment read out loud anonymously. We will answer chat questions first and call on people who have written in the chat before we take questions from raised hands.
+    - point: <b>Share your video when speaking</b> - If your internet plan/connectivity allows, please share your video when speaking.
+    - point: <b>Keep yourself on mute</b> - Please mute yourself when not speaking.
+
 ---
 
-<br>
-
-## Session Rules
-
-<br>
-{:.border-bottom}
-
-CHAT QUESTIONS/COMMENTS TAKE FIRST PRIORITY - Chat your question/comments either to everyone (preferred) or to the chat moderator (Ryan Lucas) privately to have your question/comment read out loud anonamously. We will answer chat questions first and call on people who have written in the chat before we take questions from raised hands.
-
-SHARE YOUR VIDEO WHEN SPEAKING - If your internet plan/connectivity allows, please share your video when speaking.
-
-KEEP YOURSELF ON MUTE - Please mute yourself when not speaking,
 
 ## Agenda
 <br>

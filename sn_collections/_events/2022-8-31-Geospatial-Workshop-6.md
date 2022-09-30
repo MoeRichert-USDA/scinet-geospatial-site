@@ -38,22 +38,17 @@ subnav:
   - text: Tutorial material
     href: '#tutorial-material'
 
+summarybox:
+  header: Session Rules
+  list:
+    - point: <b>Green Light, Red Light</b> - Use the Zoom participant feedback indicators to show us if you are following along successfully as well as when you need help. To access participant feed back, click on the “Participants” icon to open the participants pane/window. Click the green “yes” to indicate that you are following along successfully, click the red “no” to indicate when you need help. Ideally, you will have either the red or green indicator displayed for yourself throughout the entire tutorial. We will pause every so often to work through solutions for participants displaying a red light.
+    - point: <b>Chat questions/comments take first priority</b> - Chat your question/comments either to everyone (preferred) or to the chat moderator (Ryan Lucas) privately to have your question/comment read out loud anonymously. We will answer chat questions first and call on people who have written in the chat before we take questions from raised hands.
+    - point: <b>Share your video when speaking</b> - If your internet plan/connectivity allows, please share your video when speaking.
+    - point: <b>Keep yourself on mute</b> - Please mute yourself when not speaking.
+
 ---
 
 <br>
-
-## Session Rules
-
-<br>
-{:.border-bottom}
-
-GREEN LIGHT, RED LIGHT - Use the Zoom participant feedback indicators to show us if you are following along successfully as well as when you need help. To access participant feed back, click on the “Participants” icon to open the participants pane/window. Click the green “yes” to indicate that you are following along successfully, click the red “no” to indicate when you need help. Ideally, you will have either the red or green indicator displayed for yourself throughout the entire tutorial. We will pause every so often to work through solutions for participants displaying a red light.
-
-CHAT QUESTIONS/COMMENTS TAKE FIRST PRIORITY - Chat your question/comments either to everyone (preferred) or to the chat moderator (Ryan Lucas) privately to have your question/comment read out loud anonamously. We will answer chat questions first and call on people who have written in the chat before we take questions from raised hands.
-
-SHARE YOUR VIDEO WHEN SPEAKING - If your internet plan/connectivity allows, please share your video when speaking.
-
-KEEP YOURSELF ON MUTE - Please mute yourself when not speaking,
 
 ## Learning objectives
 <br>
@@ -99,21 +94,21 @@ Steps to prepare for the tutorial:
 
 2. **Copy the Session 6 material from the workshop project space to your temporary workshop folder.** To get to a shell to do so, you can use the *Clusters* tab at the top of your Open OnDemand page to select 'Ceres Shell Access' (if prompted for a password, enter your SCINet account password without the verification code). If you are comfortable ssh-ing in instead from terminal or powershell, feel free to do so.
 
-If you have already made your workshop folder in previous sessions, you will only need to run the following commands, replacing *firstname.lastname* with your actual name: 
+    If you have already made your workshop folder in previous sessions, you will only need to run the following commands, replacing *firstname.lastname* with your actual name: 
 
-```bash
-cd /90daydata/shared/firstname.lastname
-cp -r /project/geospatialworkshop/session6/
-```
+    ```bash
+    cd /90daydata/shared/firstname.lastname
+    cp -r /project/geospatialworkshop/session6/
+    ```
 
-If you have not created your workshop folder yet, run these commands instead, replacing *firstname.lastname* with your actual name:
+    If you have not created your workshop folder yet, run these commands instead, replacing *firstname.lastname* with your actual name:
 
-```bash
-cd /90daydata/shared
-mkdir firstname.lastname
-cd firstname.lastname
-cp -r /project/geospatialworkshop/session6/ 
-```
+    ```bash
+    cd /90daydata/shared
+    mkdir firstname.lastname
+    cd firstname.lastname
+    cp -r /project/geospatialworkshop/session6/ 
+    ```
 
 3. **Launch a RStudio session.** Choose the following values from the menu:
 
@@ -128,9 +123,9 @@ cp -r /project/geospatialworkshop/session6/
 
 4. **The tutorials:** The first two tutorials will follow Rmarkdown documents in RStudio. For the third tutorial, we will submit a job to SLURM directly. If your shell from Step 2 has expired when we start the third tutorial, please reconnect, and change directory to your session 6 folder:
 
-```bash
-cd /90daydata/shared/firstname.lastname/session6
-```
+    ```bash
+    cd /90daydata/shared/firstname.lastname/session6
+    ```
 
 
 
