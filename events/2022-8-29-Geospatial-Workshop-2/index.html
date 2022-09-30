@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Session 2: Fundamentals of geospatial data | SCINet | USDA Scientific Computing Initiative</title>
+
+
+
+<meta name="description" content="SCINet is a USDA initiative to provide agricultural scientists access to high performance computing, networking and training">
+
+
+
+<link rel="shortcut icon" type="image/ico"
+  href="/scinet-geospatial-site/assets/uswds/img/favicons/favicon.ico">
+
+<link rel="icon" type="image/png"
+  href="/scinet-geospatial-site/assets/uswds/img/favicons/favicon.png">
+
+<link rel="icon" type="image/png"
+  sizes="192x192"
+  href="/scinet-geospatial-site/assets/uswds/img/favicons/favicon-192.png">
+
+<link rel="apple-touch-icon-precomposed" type=""
+  href="/scinet-geospatial-site/assets/uswds/img/favicons/favicon-57.png">
+
+<link rel="apple-touch-icon-precomposed" type=""
+  sizes="72x72"
+  href="/scinet-geospatial-site/assets/uswds/img/favicons/favicon-72.png">
+
+<link rel="apple-touch-icon-precomposed" type=""
+  sizes="114x114"
+  href="/scinet-geospatial-site/assets/uswds/img/favicons/favicon-114.png">
+
+<link rel="apple-touch-icon-precomposed" type=""
+  sizes="144x144"
+  href="/scinet-geospatial-site/assets/uswds/img/favicons/favicon-144.png">
+
+
+
+  
+
+
+
+<link rel="stylesheet"
+  href="/scinet-geospatial-site/assets/css/style.css"
+  media="screen">
+
+  
+  
+
+
+<!-- Digital Analytics Program roll-up, see https://analytics.usa.gov for data -->
+<script id="_fed_an_ua_tag" src="https://dap.digitalgov.gov/Universal-Federated-Analytics-Min.js?agency=USDA&subagency=ARS"></script>
+
+
+  
+  <script>0</script>
+</head>
+
+<body class="site-90%">
+
+  <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+
+  
+
+
+
+
+<div class="usa-overlay"></div>
+<header class="usa-header usa-header--extended" role="banner">
+
+  <div class="usa-navbar">
+      
+<div class="usa-logo">
+    
+    <span class="agency-logo display-flex flex-align-center margin-right-1">
+        
+        <a href="/scinet-geospatial-site/">
+            <img class="usa-logo-img"
+                src="/scinet-geospatial-site/assets/img/site/usda-logo-color.svg"
+                alt="USDA">
+        </a>
+        
+    </span>
+    
+    <a class="agency-logo-text"
+        href="/scinet-geospatial-site/"
+        aria-label="SCINet - Geospatial Workshop">
+        <div class="agency-identity">
+            <div class="agency-name usa-logo__text">SCINet - Geospatial Workshop</div>
+            
+            <div class="tagline">U.S. Department of Agriculture</div>
+            
+        </div>
+    </a>
+</div>
+    <button class="usa-menu-btn">Menu</button>
+  </div>
+
+  <nav aria-label="Primary navigation" class="usa-nav border-bottom-2px">
+    <div class="usa-nav__inner">
+      <button class="usa-nav__close">
+        <img src="/scinet-geospatial-site/assets/uswds/img/usa-icons/close.svg" alt="close">
+      </button>
+      
+      
+      
+      <ul class="usa-nav__primary usa-accordion">
+        
+        <li class="usa-nav__primary-item">
+          
+          <a class=" usa-nav__link  "
+            href="/scinet-geospatial-site/">
+            <span>Home</span>
+          </a>
+          
+        </li>
+        
+        <li class="usa-nav__primary-item">
+          
+
+          
+          
+          
+          <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="nav-Getting Started">
+            <span>Getting Started</span>
+          </button>
+
+          
+          
+
+<ul id="nav-Getting Started" class="usa-nav__submenu" hidden="">
+
+  
+      
+      
+          <li class="usa-nav__submenu-item">
+            <a
+              href="/scinet-geospatial-site/about/signup">Sign up for a SCINet account</a>
+          </li>
+          
+      
+      
+          <li class="usa-nav__submenu-item">
+            <a
+              href="/scinet-geospatial-site/about/contact">Contact</a>
+          </li>
+          
+      
+</ul>
+          
+
+          
+        </li>
+        
+        <li class="usa-nav__primary-item">
+          
+          <a class=" usa-nav__link  "
+            href="/scinet-geospatial-site/workshop/premeeting">
+            <span>Premeeting Checklist</span>
+          </a>
+          
+        </li>
+        
+        <li class="usa-nav__primary-item">
+          
+
+          
+          
+          
+          <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="nav-2022 Sessions">
+            <span>2022 Sessions</span>
+          </button>
+
+          
+          
+
+<ul id="nav-2022 Sessions" class="usa-nav__submenu" hidden="">
+
+  
+      
+      
+          <li class="usa-nav__submenu-item">
+            <a
+              href="/scinet-geospatial-site/workshop/itinerary">Workshop Itinerary</a>
+          </li>
+          
+      
+      
+          <li class="usa-nav__submenu-item">
+            <a
+              href="/scinet-geospatial-site/events/2022-8-25-Geospatial-Workshop-0/">0 - Tech Support</a>
+          </li>
+          
+      
+      
+          <li class="usa-nav__submenu-item">
+            <a
+              href="/scinet-geospatial-site/events/2022-8-29-Geospatial-Workshop-1/">1 - Introduction to SCINet</a>
+          </li>
+          
+      
+      
+          <li class="usa-nav__submenu-item">
+            <a
+              href="/scinet-geospatial-site/events/2022-8-29-Geospatial-Workshop-2/">2 - Geospatial Data</a>
+          </li>
+          
+      
+      
+          <li class="usa-nav__submenu-item">
+            <a
+              href="/scinet-geospatial-site/events/2022-8-29-Geospatial-Workshop-3/">3 - Parallel Processing</a>
+          </li>
+          
+      
+      
+          <li class="usa-nav__submenu-item">
+            <a
+              href="/scinet-geospatial-site/events/2022-8-30-Geospatial-Workshop-4/">4 - Interactive Environments</a>
+          </li>
+          
+      
+      
+          <li class="usa-nav__submenu-item">
+            <a
+              href="/scinet-geospatial-site/events/2022-8-30-Geospatial-Workshop-5/">5 - Geospatial Common Data Library</a>
+          </li>
+          
+      
+      
+          <li class="usa-nav__submenu-item">
+            <a
+              href="/scinet-geospatial-site/events/2022-8-31-Geospatial-Workshop-6/">6 - Geospatial analyses - R</a>
+          </li>
+          
+      
+      
+          <li class="usa-nav__submenu-item">
+            <a
+              href="/scinet-geospatial-site/events/2022-8-31-Geospatial-Workshop-7/">7 - Interactive BYOP</a>
+          </li>
+          
+      
+      
+          <li class="usa-nav__submenu-item">
+            <a
+              href="/scinet-geospatial-site/events/2022-9-1-Geospatial-Workshop-8/">8 - Geospatial analyses - Python</a>
+          </li>
+          
+      
+      
+          <li class="usa-nav__submenu-item">
+            <a
+              href="/scinet-geospatial-site/events/2022-9-1-Geospatial-Workshop-9/">9 - Interactive BYOP</a>
+          </li>
+          
+      
+      
+          <li class="usa-nav__submenu-item">
+            <a
+              href="/scinet-geospatial-site/events/2022-9-2-Geospatial-Workshop-10/">10 - Interactive BYOP</a>
+          </li>
+          
+      
+      
+          <li class="usa-nav__submenu-item">
+            <a
+              href="/scinet-geospatial-site/events/2022-9-2-Geospatial-Workshop-11/">11 - Closing Discussion</a>
+          </li>
+          
+      
+</ul>
+          
+
+          
+        </li>
+        
+
+
+      </ul>
+      
+
+    </div>
+
+    
+    <div class="usa-nav__secondary">
+      
+      
+    </div>
+
+
+    </div>
+    </div>
+  </nav>
+
+</header>
+
+
+
+  
+
+    
+
+
+    
+    
+
+    
+
+    
+
+    
+    
+    
+
+
+
+
+    
+    
+
+
+    <div class="grid-container main-side">
+
+
+  
+
+    
+    
+      
+      
+
+
+
+
+<div class="grid-row grid-gap flex-align-start">
+    <div class="usa-layout-docs__sidenav desktop:grid-col-3 desktop:padding-y-9 usa-sticky-sidenav">
+        <nav aria-label="Secondary navigation">
+  <ul class="usa-sidenav">
+    
+    
+    
+    
+
+
+
+
+<li class="usa-sidenav__item">
+    <a href="/scinet-geospatial-site/workshop/itinerary"  >
+        Workshop Itinerary
+    </a>
+    
+</li>
+    
+    
+
+
+
+
+<li class="usa-sidenav__item">
+    <a href="/scinet-geospatial-site/events/2022-8-25-Geospatial-Workshop-0/"  >
+        0 - Tech Support
+    </a>
+    
+</li>
+    
+    
+
+
+
+
+<li class="usa-sidenav__item">
+    <a href="/scinet-geospatial-site/events/2022-8-29-Geospatial-Workshop-1/"  >
+        1 - Introduction to SCINet
+    </a>
+    
+</li>
+    
+    
+
+
+
+
+<li class="usa-sidenav__item">
+    <a href="/scinet-geospatial-site/events/2022-8-29-Geospatial-Workshop-2/"  class="usa-current"  >
+        2 - Geospatial Data
+    </a>
+    
+    <ul class="usa-sidenav__sublist">
+        
+  <li>
+    <a href="#learning-objectives" >Learning objectives </a>
+  </li>
+
+  <li>
+    <a href="#agenda" >Agenda </a>
+  </li>
+
+
+    </ul>
+    
+</li>
+    
+    
+
+
+
+
+<li class="usa-sidenav__item">
+    <a href="/scinet-geospatial-site/events/2022-8-29-Geospatial-Workshop-3/"  >
+        3 - Parallel Processing
+    </a>
+    
+</li>
+    
+    
+
+
+
+
+<li class="usa-sidenav__item">
+    <a href="/scinet-geospatial-site/events/2022-8-30-Geospatial-Workshop-4/"  >
+        4 - Interactive Environments
+    </a>
+    
+</li>
+    
+    
+
+
+
+
+<li class="usa-sidenav__item">
+    <a href="/scinet-geospatial-site/events/2022-8-30-Geospatial-Workshop-5/"  >
+        5 - Geospatial Common Data Library
+    </a>
+    
+</li>
+    
+    
+
+
+
+
+<li class="usa-sidenav__item">
+    <a href="/scinet-geospatial-site/events/2022-8-31-Geospatial-Workshop-6/"  >
+        6 - Geospatial analyses - R
+    </a>
+    
+</li>
+    
+    
+
+
+
+
+<li class="usa-sidenav__item">
+    <a href="/scinet-geospatial-site/events/2022-8-31-Geospatial-Workshop-7/"  >
+        7 - Interactive BYOP
+    </a>
+    
+</li>
+    
+    
+
+
+
+
+<li class="usa-sidenav__item">
+    <a href="/scinet-geospatial-site/events/2022-9-1-Geospatial-Workshop-8/"  >
+        8 - Geospatial analyses - Python
+    </a>
+    
+</li>
+    
+    
+
+
+
+
+<li class="usa-sidenav__item">
+    <a href="/scinet-geospatial-site/events/2022-9-1-Geospatial-Workshop-9/"  >
+        9 - Interactive BYOP
+    </a>
+    
+</li>
+    
+    
+
+
+
+
+<li class="usa-sidenav__item">
+    <a href="/scinet-geospatial-site/events/2022-9-2-Geospatial-Workshop-10/"  >
+        10 - Interactive BYOP
+    </a>
+    
+</li>
+    
+    
+
+
+
+
+<li class="usa-sidenav__item">
+    <a href="/scinet-geospatial-site/events/2022-9-2-Geospatial-Workshop-11/"  >
+        11 - Closing Discussion
+    </a>
+    
+</li>
+    
+    
+  </ul>
+</nav>
+    </div>
+    
+    <main class="usa-layout-docs usa-layout-docs__main usa-prose desktop:grid-col-9" id="main-content">
+        <nav class="usa-breadcrumb usa-breadcrumb--wrap"><div class="padding-y-2"></div></nav>
+        
+            <h1 class="top-header">Session 2: Fundamentals of geospatial data</h1>
+        
+
+        
+          <br>
+          
+<div
+  class="usa-summary-box"
+  role="region"
+  aria-labelledby="summary-box-key-information"
+>
+  <div class="usa-summary-box__body">
+    <h3 class="usa-summary-box__heading" id="summary-box-key-information">
+      Session Rules
+    </h3>
+    <div class="usa-summary-box__text">
+        
+        
+        <ul>
+        
+            <li><b>Chat questions/comments take first priority</b> - Chat your question/comments either to everyone (preferred) or to the chat moderator (Ryan Lucas) privately to have your question/comment read out loud anonymously. We will answer chat questions first and call on people who have written in the chat before we take questions from raised hands.</li>
+        
+            <li><b>Share your video when speaking</b> - If your internet plan/connectivity allows, please share your video when speaking.</li>
+        
+            <li><b>Keep yourself on mute</b> - Please mute yourself when not speaking.</li>
+        
+        </ul>
+        
+    </div>
+  </div>
+</div>
+        
+        <p><br /></p>
+
+<h2 id="learning-objectives">Learning objectives</h2>
+<p class="border-bottom"><br /></p>
+
+<p>With only one hour, we are limited in how many geospatial basics we can cover. Since this workshop is geared towards addressing computationally expensive geospatial analyses, we will prioritize content relevant to that topic to provide foundation for the tutorials in upcoming sessions. Please see the links listed in Session 11 for additional geospatial training opportunities.</p>
+
+<ul>
+  <li>Classify geospatial data as raster or vector</li>
+  <li>Recognize geospatial operations that can be computationally expensive</li>
+  <li>Identify if a geospatial operation has:
+    <ul>
+      <li>many independent tasks</li>
+      <li>some locally-dependent tasks</li>
+      <li>one or few globally-dependent tasks</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="agenda">Agenda</h2>
+<p class="border-bottom"><br /></p>
+
+<p>This session will be a lecture with slides covering the following content:</p>
+
+<ul>
+  <li>Define scope and objectives: content most relevant to computational concerns</li>
+  <li>Raster data
+    <ul>
+      <li>Structure, file formats, and I/O concerns</li>
+      <li>Common computationally expensive operations</li>
+    </ul>
+  </li>
+  <li>Vector data
+    <ul>
+      <li>Geometry types, file formats, and I/O concerns</li>
+      <li>Common computationally expensive operations</li>
+    </ul>
+  </li>
+  <li>Geospatial Data Abstraction Library (GDAL)</li>
+</ul>
+
+<p><a href="https://web.microsoftstream.com/video/125dba00-b307-4675-8575-c3fe0771d914">Watch a recording of this presentation</a>.</p>
+
+<p><br /></p>
+
+        
+        <br>
+    </main>
+</div>
+</div>
+
+
+
+    
+
+  
+
+  
+
+
+    
+<footer class="usa-footer usa-footer--big">
+
+  
+  <div class="grid-container">
+    <p>Last updated: September 30, 2022 at 07:21 PM</p>
+  </div>
+  
+
+  
+  <div class="grid-container usa-footer__return-to-top">
+    <a href="#">Return to top</a>
+  </div>
+  
+
+  
+  
+
+  <div class="usa-footer__primary-section">
+    <div class="grid-container">
+          <nav class="usa-footer__nav" aria-label="Footer navigation">
+            <div class="grid-row grid-gap-4">
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                
+                <section class="
+                    usa-footer__primary-content
+                    usa-footer__primary-content--collapsible
+                  ">
+                  <h4 class="usa-footer__primary-link">RESOURCES</h4>
+
+                  <ul class="usa-list usa-list--unstyled">
+                    
+                    <li class="usa-footer__secondary-link">
+                      <a
+                        href="mailto:scinet_vrsc@usda.gov">
+                        Feedback
+                      </a>
+                    </li>
+                    
+                    <li class="usa-footer__secondary-link">
+                      <a
+                        href="/scinet-geospatial-site/about/signup">
+                        Sign Up
+                      </a>
+                    </li>
+                    
+                    <li class="usa-footer__secondary-link">
+                      <a
+                        href="/scinet-geospatial-site/about/contact">
+                        Contact
+                      </a>
+                    </li>
+                    
+                    <li class="usa-footer__secondary-link">
+                      <a
+                        href="https://scinet.usda.gov/opportunities/postdocs">
+                        Fellowships
+                      </a>
+                    </li>
+                    
+                  </ul>
+                  
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                
+                <section class="
+                    usa-footer__primary-content
+                    usa-footer__primary-content--collapsible
+                  ">
+                  <h4 class="usa-footer__primary-link">USDA</h4>
+
+                  <ul class="usa-list usa-list--unstyled">
+                    
+                    <li class="usa-footer__secondary-link">
+                      <a
+                        href="https://ask.usda.gov/">
+                        AskUSDA
+                      </a>
+                    </li>
+                    
+                    <li class="usa-footer__secondary-link">
+                      <a
+                        href="https://usda.gov/">
+                        USDA.gov
+                      </a>
+                    </li>
+                    
+                    <li class="usa-footer__secondary-link">
+                      <a
+                        href="https://www.usa.gov">
+                        USA.gov
+                      </a>
+                    </li>
+                    
+                    <li class="usa-footer__secondary-link">
+                      <a
+                        href="https://www.whitehouse.gov">
+                        WhiteHouse.gov
+                      </a>
+                    </li>
+                    
+                    <li class="usa-footer__secondary-link">
+                      <a
+                        href="https://usda.gov/plain-writing">
+                        Plain Writing
+                      </a>
+                    </li>
+                    
+                  </ul>
+                  
+              </div>
+              
+              <div class="mobile-lg:grid-col-6 desktop:grid-col-4">
+                
+                <section class="
+                    usa-footer__primary-content
+                    usa-footer__primary-content--collapsible
+                  ">
+                  <h4 class="usa-footer__primary-link">LEGAL</h4>
+
+                  <ul class="usa-list usa-list--unstyled">
+                    
+                    <li class="usa-footer__secondary-link">
+                      <a
+                        href="https://usda.gov/accessibility-statement">
+                        Accessibility Statement
+                      </a>
+                    </li>
+                    
+                    <li class="usa-footer__secondary-link">
+                      <a
+                        href="https://usda.gov/non-discrimination-statement">
+                        Non-Discrimination Statement
+                      </a>
+                    </li>
+                    
+                    <li class="usa-footer__secondary-link">
+                      <a
+                        href="https://usda.gov/privacy-policy">
+                        Privacy Policy
+                      </a>
+                    </li>
+                    
+                    <li class="usa-footer__secondary-link">
+                      <a
+                        href="https://www.dm.usda.gov/foia/">
+                        FOIA
+                      </a>
+                    </li>
+                    
+                    <li class="usa-footer__secondary-link">
+                      <a
+                        href="https://www.ocio.usda.gov/policy-directives-records-forms/information-quality-activities">
+                        Information Quality
+                      </a>
+                    </li>
+                    
+                  </ul>
+                  
+              </div>
+              
+            </div>
+          </nav>
+    </div>
+  </div>
+
+  
+  <div class="usa-footer__secondary-section">
+    <div class="grid-container">
+      <div class="grid-row grid-gap">
+        <div class="usa-footer__logo grid-row mobile-lg:grid-col-6 mobile-lg:grid-gap-2">
+          
+
+          
+          <div class="mobile-lg:grid-col-auto">
+            <h3 class="usa-footer__logo-heading">USDA Agricultural Research Service</h3>
+          </div>
+          
+        </div>
+
+        
+        <div class="usa-footer__contact-links mobile-lg:grid-col-6">
+          
+          
+          <div class="usa-footer__social-links grid-row grid-gap-1">
+            <div class="grid-col-auto">
+              
+              <a class="usa-social-link" href="https://twitter.com/USDA_ARS"
+              ><img
+                class="usa-social-link__icon"
+                src="/scinet-geospatial-site/assets/uswds/img/usa-icons/twitter.svg"
+                alt="Twitter"
+            /></a>
+              
+            </div>
+          </div>
+          
+          
+          <h3 class="usa-footer__contact-heading">Contact us</h3>
+          
+          
+          <address class="usa-footer__address">
+            
+            <div class="usa-footer__contact-info grid-row grid-gap">
+              
+              <div class="grid-col-auto">
+                <a
+                  href="mailto:scinet_vrsc@usda.gov">
+                  scinet_vrsc@usda.gov
+                </a>
+              </div>
+              
+            </div>
+          </address>
+          
+          
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
+
+</footer>
+
+
+
+  <!-- dynamically determine scripts needed for this config -->
+
+
+
+
+
+
+
+  
+    
+      <script src="/scinet-geospatial-site/assets/uswds/js/uswds.min.js"></script>
+    
+    
+
+  
+    
+      <script src="/scinet-geospatial-site/assets/js/vendor/anchor.min.js"></script>
+    
+    
+
+  
+    
+    
+
+  
+    
+      <script src="/scinet-geospatial-site/assets/js/external.js"></script>
+    
+    
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
