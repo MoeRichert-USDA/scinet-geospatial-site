@@ -38,4 +38,4 @@ In this final BYOP session, we will also address a TBD topic that was raised in 
 The topic was how to use R to loop through input data files and submit SLURM jobs per file. 
 A recording of this tutorial is coming soon.
 A written version of this tutorial, modified to be accessible to any SCINet user,
-is available on the [Geospatial Workbook](https://geospatial.101workbook.org/ExampleGeoWorkflows/GRWGWorkshop).
+is available on the [Geospatial Workbook](https://geospatial.101workbook.org/ExampleGeoWorkflows/GRWG22_JobPerDataFile_R).

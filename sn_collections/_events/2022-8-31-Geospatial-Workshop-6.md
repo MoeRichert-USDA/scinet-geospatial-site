@@ -81,7 +81,10 @@ This session will be an interactive tutorial:
 {:.border-bottom}
 
 Written versions of these tutorials, modified to be accessible to any SCINet user,
-are available on the [Geospatial Workbook](https://geospatial.101workbook.org/ExampleGeoWorkflows/GRWGWorkshop)
+are available on the Geospatial Workbook:
+* [Handling vector data](https://geospatial.101workbook.org/ExampleGeoWorkflows/GRWG22_VectorData_R)
+* [Raster calculations with tiles](https://geospatial.101workbook.org/ExampleGeoWorkflows/GRWG22_RasterTiles_R)
+* [Zonal statistics with SLURM](https://geospatial.101workbook.org/ExampleGeoWorkflows/GRWG22_ZonalStats_wSLURM_R)
 
 The workshop-specific instructions are kept below.
 
